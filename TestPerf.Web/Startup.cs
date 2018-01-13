@@ -30,7 +30,7 @@ namespace TestPerf.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddResponseCompression();
-            services.AddLogging(x => x.SetMinimumLevel(LogLevel.Error));
+            services.AddLogging(x => x.SetMinimumLevel(LogLevel.Information));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,47 +56,40 @@ namespace TestPerf.Web
             {
                 try
                 {
-                    var results = await Task
-                        .WhenAll(this
-                        .tables
-                        .AsParallel()
-                        .Select(async (table, i) =>
+                    var sb = new StringBuilder();
+                    using (var conn = new MySqlConnection(connectionString))
+                    {
+                        await conn.OpenAsync();
+                        for (var i = 0; i < this.tables.Length; i++)
                         {
-                            using (var conn = new MySqlConnection(connectionString))
+                            var table = this.tables[i];
+                            var sql = handlers[i % handlers.Length](table);
+                            sb.AppendLine();
+                            sb.Append(sql);
+                            sb.AppendLine();
+                            using (var command = conn.CreateCommand())
                             {
-                                await conn.OpenAsync();
-                                var sql = handlers[i % handlers.Length](table);
-                                var sb = new StringBuilder();
-                                sb.AppendLine();
-                                sb.Append(sql);
-                                sb.AppendLine();
-                                using (var command = conn.CreateCommand())
+                                command.CommandText = sql;
+                                using (var reader = await command.ExecuteReaderAsync())
                                 {
-                                    command.CommandText = sql;
-                                    using (var reader = await command.ExecuteReaderAsync())
+                                    while (await reader.ReadAsync())
                                     {
-                                        while (await reader.ReadAsync())
+                                        for (var j = 0; j < reader.FieldCount; j++)
                                         {
-                                            for (var j = 0; j < reader.FieldCount; j++)
-                                            {
-                                                sb.Append(await GetValue(reader, j));
-                                                sb.Append(" ");
-                                            }
-
-                                            sb.AppendLine();
+                                            sb.Append(await GetValue(reader, j));
+                                            sb.Append(" ");
                                         }
+
+                                        sb.AppendLine();
                                     }
                                 }
-
-                                return sb.ToString();
                             }
-                        }));
+                        }
+                    }
 
                     context.Response.ContentType = "text/plain; charset=utf-8";
                     context.Response.Headers.Add("X-Version", "1.1");
-                    await context.Response.WriteAsync(
-                        string.Join("", results)
-                    );
+                    await context.Response.WriteAsync(sb.ToString());
                 }
                 catch (Exception ex)
                 {
