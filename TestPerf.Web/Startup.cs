@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
@@ -14,7 +15,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore.Update;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Protocols;
 using MySql.Data.MySqlClient;
 
 namespace TestPerf.Web
@@ -26,6 +30,7 @@ namespace TestPerf.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddResponseCompression();
+            services.AddLogging(x => x.SetMinimumLevel(LogLevel.Error));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +43,8 @@ namespace TestPerf.Web
 
             app.UseResponseCompression();
             
+            var connectionString = "server=127.0.0.1;uid=bikajewels;pwd=bikajewels;database=bikajewels;Convert Zero Datetime=True";
+            
             Func<string, string>[] handlers = new Func<string, string>[]
             {
                 table => "SELECT * from " + table,
@@ -49,42 +56,47 @@ namespace TestPerf.Web
             {
                 try
                 {
-                    var sb = new StringBuilder();
-                    context.Response.ContentType = "text/plain; charset=utf-8";
-                    context.Response.Headers.Add("X-Version", "1.1");
-                    using (var conn = new MySqlConnection(
-                        "server=127.0.0.1;uid=bikajewels;pwd=bikajewels;database=bikajewels;Convert Zero Datetime=True"))
-                    {
-                        await conn.OpenAsync();
-                        
-                        for (var i = 0; i < this.tables.Length; i++)
+                    var results = await Task
+                        .WhenAll(this
+                        .tables
+                        .AsParallel()
+                        .Select(async (table, i) =>
                         {
-                            var table = this.tables[i];
-                            var sql = handlers[i % handlers.Length](table);
-                            sb.AppendLine();
-                            sb.Append(sql);
-                            sb.AppendLine();
-                            using (var command = conn.CreateCommand())
+                            using (var conn = new MySqlConnection(connectionString))
                             {
-                                command.CommandText = sql;
-                                using (var reader = await command.ExecuteReaderAsync())
+                                await conn.OpenAsync();
+                                var sql = handlers[i % handlers.Length](table);
+                                var sb = new StringBuilder();
+                                sb.AppendLine();
+                                sb.Append(sql);
+                                sb.AppendLine();
+                                using (var command = conn.CreateCommand())
                                 {
-                                    while (await reader.ReadAsync())
+                                    command.CommandText = sql;
+                                    using (var reader = await command.ExecuteReaderAsync())
                                     {
-                                        for (var j = 0; j < reader.FieldCount; j++)
+                                        while (await reader.ReadAsync())
                                         {
-                                            sb.Append(GetValue(reader, j));
-                                            sb.Append(" ");
-                                        }
+                                            for (var j = 0; j < reader.FieldCount; j++)
+                                            {
+                                                sb.Append(await GetValue(reader, j));
+                                                sb.Append(" ");
+                                            }
 
-                                        sb.AppendLine();
+                                            sb.AppendLine();
+                                        }
                                     }
                                 }
-                            }
-                        }
-                    }
 
-                    await context.Response.WriteAsync(sb.ToString());
+                                return sb.ToString();
+                            }
+                        }));
+
+                    context.Response.ContentType = "text/plain; charset=utf-8";
+                    context.Response.Headers.Add("X-Version", "1.1");
+                    await context.Response.WriteAsync(
+                        string.Join("", results)
+                    );
                 }
                 catch (Exception ex)
                 {
@@ -93,9 +105,9 @@ namespace TestPerf.Web
             });
         }
 
-        private string GetValue(DbDataReader reader, int i)
+        private async Task<string> GetValue(DbDataReader reader, int i)
         {
-            return reader.GetFieldValue<object>(i).ToString();
+            return (await reader.GetFieldValueAsync<object>(i)).ToString();
         }
 
         private string[] tables = new[]
