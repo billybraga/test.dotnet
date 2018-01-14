@@ -1,0 +1,1853 @@
+
+SELECT * from kfm_new_directories
+1 root 0 0 0 
+2 2011 1 0 0 
+3 06 2 0 0 
+
+SELECT count(*) from kfm_new_files
+0 
+
+SELECT * from kfm_new_files_images LIMIT 10, 1000
+
+SELECT * from kfm_new_files_images_thumbs
+
+SELECT count(*) from kfm_new_parameters
+3 
+
+SELECT * from kfm_new_plugin_extensions LIMIT 10, 1000
+
+SELECT * from kfm_new_session
+1 c4ca4238a0b923820dcc509a6f75849b 6/29/2011 4:14:02 AM 
+
+SELECT count(*) from kfm_new_session_vars
+8 
+
+SELECT * from kfm_new_settings LIMIT 10, 1000
+
+SELECT * from kfm_new_tagged_files
+
+SELECT count(*) from kfm_new_tags
+0 
+
+SELECT * from kfm_new_translations LIMIT 10, 1000
+
+SELECT * from kfm_new_users
+1 admin d033e22ae348aeb5660fc2140aec35850c4da997 1 
+
+SELECT count(*) from wp_commentmeta
+0 
+
+SELECT * from wp_comments LIMIT 10, 1000
+
+SELECT * from wp_icl_cms_nav_cache
+
+SELECT count(*) from wp_icl_content_status
+0 
+
+SELECT * from wp_icl_core_status LIMIT 10, 1000
+
+SELECT * from wp_icl_flags
+1 ar ar.png 0 
+2 bg bg.png 0 
+3 bs bs.png 0 
+4 ca ca.png 0 
+5 cs cs.png 0 
+6 cy cy.png 0 
+7 da da.png 0 
+8 de de.png 0 
+9 el el.png 0 
+10 en en.png 0 
+11 eo nil.png 0 
+12 es es.png 0 
+13 et et.png 0 
+14 eu eu.png 0 
+15 fa fa.png 0 
+16 fi fi.png 0 
+17 fr fr.png 0 
+18 ga ga.png 0 
+19 he he.png 0 
+20 hi hi.png 0 
+21 hr hr.png 0 
+22 hu hu.png 0 
+23 hy hy.png 0 
+24 id id.png 0 
+25 is is.png 0 
+26 it it.png 0 
+27 ja ja.png 0 
+28 ko ko.png 0 
+29 ku ku.png 0 
+30 la la.png 0 
+31 lt lt.png 0 
+32 lv lv.png 0 
+33 mk mk.png 0 
+34 mn mn.png 0 
+35 mo mo.png 0 
+36 mt mt.png 0 
+37 nb nb.png 0 
+38 ne ne.png 0 
+39 nl nl.png 0 
+40 pa pa.png 0 
+41 pl pl.png 0 
+42 pt-br pt-br.png 0 
+43 pt-pt pt-pt.png 0 
+44 qu nil.png 0 
+45 ro ro.png 0 
+46 ru ru.png 0 
+47 sl sl.png 0 
+48 sla nil.png 0 
+49 so so.png 0 
+50 sq sq.png 0 
+51 sr sr.png 0 
+52 sv sv.png 0 
+53 ta ta.png 0 
+54 th th.png 0 
+55 tr tr.png 0 
+56 uk uk.png 0 
+57 ur ur.png 0 
+58 uz uz.png 0 
+59 vi vi.png 0 
+60 yi yi.png 0 
+61 zh-hans zh-hans.png 0 
+62 zh-hant zh-hant.png 0 
+63 zu nil.png 0 
+
+SELECT count(*) from wp_icl_languages
+63 
+
+SELECT * from wp_icl_languages_translations LIMIT 10, 1000
+11 en cy English 
+12 en da English 
+13 en el Αγγλικα 
+14 en eo English 
+15 en et English 
+16 en eu English 
+17 en fa English 
+18 en fi englanti 
+19 en ga English 
+20 en he אנגלית 
+21 en hi English 
+22 en hr English 
+23 en hu angol 
+24 en hy English 
+25 en id English 
+26 en is English 
+27 en it Inglese 
+28 en ja 英語 
+29 en ko 영어 
+30 en ku English 
+31 en la English 
+32 en lv English 
+33 en lt English 
+34 en mk English 
+35 en mt English 
+36 en mo English 
+37 en mn English 
+38 en ne English 
+39 en nl Engels 
+40 en nb English 
+41 en pa English 
+42 en pl angielski 
+43 en pt-pt Inglês 
+44 en pt-br Inglês 
+45 en qu English 
+46 en ro Engleză 
+47 en ru Английский 
+48 en sl English 
+49 en so English 
+50 en sq English 
+51 en sr English 
+52 en sv Engelska 
+53 en ta English 
+54 en th อังกฤษ 
+55 en tr İngilizce 
+56 en uk English 
+57 en ur English 
+58 en uz English 
+59 en vi English 
+60 en yi English 
+61 en zh-hans 英语 
+62 en zu English 
+63 en zh-hant 英語 
+64 es en Spanish 
+65 es es Español 
+66 es de Spanisch 
+67 es fr Espagnol 
+68 es ar الأسبانية 
+69 es bs Spanish 
+70 es bg Spanish 
+71 es ca Spanish 
+72 es cs Spanish 
+73 es sla Španielčina 
+74 es cy Spanish 
+75 es da Spanish 
+76 es el Ισπανικα 
+77 es eo Spanish 
+78 es et Spanish 
+79 es eu Spanish 
+80 es fa Spanish 
+81 es fi espanja 
+82 es ga Spanish 
+83 es he ספרדית 
+84 es hi Spanish 
+85 es hr Spanish 
+86 es hu spanyol 
+87 es hy Spanish 
+88 es id Spanish 
+89 es is Spanish 
+90 es it Spagnolo 
+91 es ja スペイン語 
+92 es ko 스페인어 
+93 es ku Spanish 
+94 es la Spanish 
+95 es lv Spanish 
+96 es lt Spanish 
+97 es mk Spanish 
+98 es mt Spanish 
+99 es mo Spanish 
+100 es mn Spanish 
+101 es ne Spanish 
+102 es nl Spaans 
+103 es nb Spanish 
+104 es pa Spanish 
+105 es pl hiszpański 
+106 es pt-pt Espanhol 
+107 es pt-br Espanhol 
+108 es qu Spanish 
+109 es ro Spaniolă 
+110 es ru Испанский 
+111 es sl Spanish 
+112 es so Spanish 
+113 es sq Spanish 
+114 es sr Spanish 
+115 es sv Spanska 
+116 es ta Spanish 
+117 es th สเปน 
+118 es tr İspanyolca 
+119 es uk Spanish 
+120 es ur Spanish 
+121 es uz Spanish 
+122 es vi Spanish 
+123 es yi Spanish 
+124 es zh-hans 西班牙语 
+125 es zu Spanish 
+126 es zh-hant 西班牙語 
+127 de en German 
+128 de es Alemán 
+129 de de Deutsch 
+130 de fr Allemand 
+131 de ar الألمانية 
+132 de bs German 
+133 de bg German 
+134 de ca German 
+135 de cs German 
+136 de sla Nemčina 
+137 de cy German 
+138 de da German 
+139 de el Γερμανικα 
+140 de eo German 
+141 de et German 
+142 de eu German 
+143 de fa German 
+144 de fi saksa 
+145 de ga German 
+146 de he גרמנית 
+147 de hi German 
+148 de hr German 
+149 de hu német 
+150 de hy German 
+151 de id German 
+152 de is German 
+153 de it Tedesco 
+154 de ja ドイツ語 
+155 de ko 독어 
+156 de ku German 
+157 de la German 
+158 de lv German 
+159 de lt German 
+160 de mk German 
+161 de mt German 
+162 de mo German 
+163 de mn German 
+164 de ne German 
+165 de nl Duits 
+166 de nb German 
+167 de pa German 
+168 de pl niemiecki 
+169 de pt-pt Alemão 
+170 de pt-br Alemão 
+171 de qu German 
+172 de ro Germană 
+173 de ru Немецкий 
+174 de sl German 
+175 de so German 
+176 de sq German 
+177 de sr German 
+178 de sv Tyska 
+179 de ta German 
+180 de th เยอรมัน 
+181 de tr Almanca 
+182 de uk German 
+183 de ur German 
+184 de uz German 
+185 de vi German 
+186 de yi German 
+187 de zh-hans 德语 
+188 de zu German 
+189 de zh-hant 德語 
+190 fr en French 
+191 fr es Francés 
+192 fr de Französisch 
+193 fr fr Français 
+194 fr ar الفرنسية 
+195 fr bs French 
+196 fr bg French 
+197 fr ca French 
+198 fr cs French 
+199 fr sla Francúzština 
+200 fr cy French 
+201 fr da French 
+202 fr el Γαλλικα 
+203 fr eo French 
+204 fr et French 
+205 fr eu French 
+206 fr fa French 
+207 fr fi ranska 
+208 fr ga French 
+209 fr he צרפתית 
+210 fr hi French 
+211 fr hr French 
+212 fr hu francia 
+213 fr hy French 
+214 fr id French 
+215 fr is French 
+216 fr it Francese 
+217 fr ja フランス語 
+218 fr ko 불어 
+219 fr ku French 
+220 fr la French 
+221 fr lv French 
+222 fr lt French 
+223 fr mk French 
+224 fr mt French 
+225 fr mo French 
+226 fr mn French 
+227 fr ne French 
+228 fr nl Frans 
+229 fr nb French 
+230 fr pa French 
+231 fr pl francuski 
+232 fr pt-pt Francês 
+233 fr pt-br Francês 
+234 fr qu French 
+235 fr ro Franceză 
+236 fr ru Французский 
+237 fr sl French 
+238 fr so French 
+239 fr sq French 
+240 fr sr French 
+241 fr sv Franska 
+242 fr ta French 
+243 fr th ฝรั่งเศส 
+244 fr tr Fransızca 
+245 fr uk French 
+246 fr ur French 
+247 fr uz French 
+248 fr vi French 
+249 fr yi French 
+250 fr zh-hans 法语 
+251 fr zu French 
+252 fr zh-hant 法語 
+253 ar en Arabic 
+254 ar es Árabe 
+255 ar de Arabisch 
+256 ar fr Arabe 
+257 ar ar العربية 
+258 ar bs Arabic 
+259 ar bg Arabic 
+260 ar ca Arabic 
+261 ar cs Arabic 
+262 ar sla Arabčina 
+263 ar cy Arabic 
+264 ar da Arabic 
+265 ar el Αραβικα 
+266 ar eo Arabic 
+267 ar et Arabic 
+268 ar eu Arabic 
+269 ar fa Arabic 
+270 ar fi arabia 
+271 ar ga Arabic 
+272 ar he ערבית 
+273 ar hi Arabic 
+274 ar hr Arabic 
+275 ar hu arab 
+276 ar hy Arabic 
+277 ar id Arabic 
+278 ar is Arabic 
+279 ar it Arabo 
+280 ar ja アラビア語 
+281 ar ko 아랍어 
+282 ar ku Arabic 
+283 ar la Arabic 
+284 ar lv Arabic 
+285 ar lt Arabic 
+286 ar mk Arabic 
+287 ar mt Arabic 
+288 ar mo Arabic 
+289 ar mn Arabic 
+290 ar ne Arabic 
+291 ar nl Arabisch 
+292 ar nb Arabic 
+293 ar pa Arabic 
+294 ar pl arabski 
+295 ar pt-pt Árabe 
+296 ar pt-br Árabe 
+297 ar qu Arabic 
+298 ar ro Arabică 
+299 ar ru Арабский 
+300 ar sl Arabic 
+301 ar so Arabic 
+302 ar sq Arabic 
+303 ar sr Arabic 
+304 ar sv Arabiska 
+305 ar ta Arabic 
+306 ar th อารบิก 
+307 ar tr Arapça 
+308 ar uk Arabic 
+309 ar ur Arabic 
+310 ar uz Arabic 
+311 ar vi Arabic 
+312 ar yi Arabic 
+313 ar zh-hans 阿拉伯语 
+314 ar zu Arabic 
+315 ar zh-hant 阿拉伯語 
+316 bs en Bosnian 
+317 bs es Bosnio 
+318 bs de Bosnisch 
+319 bs fr Bosnien 
+320 bs ar البوسنية 
+321 bs bs Bosnian 
+322 bs bg Bosnian 
+323 bs ca Bosnian 
+324 bs cs Bosnian 
+325 bs sla Bosniačtina 
+326 bs cy Bosnian 
+327 bs da Bosnian 
+328 bs el Βοσνιακα 
+329 bs eo Bosnian 
+330 bs et Bosnian 
+331 bs eu Bosnian 
+332 bs fa Bosnian 
+333 bs fi bosnia 
+334 bs ga Bosnian 
+335 bs he Bosnian 
+336 bs hi Bosnian 
+337 bs hr Bosnian 
+338 bs hu bosnyák 
+339 bs hy Bosnian 
+340 bs id Bosnian 
+341 bs is Bosnian 
+342 bs it Bosniaco 
+343 bs ja ボスニア語 
+344 bs ko 보즈니아어 
+345 bs ku Bosnian 
+346 bs la Bosnian 
+347 bs lv Bosnian 
+348 bs lt Bosnian 
+349 bs mk Bosnian 
+350 bs mt Bosnian 
+351 bs mo Bosnian 
+352 bs mn Bosnian 
+353 bs ne Bosnian 
+354 bs nl Bosnisch 
+355 bs nb Bosnian 
+356 bs pa Bosnian 
+357 bs pl bośniacki 
+358 bs pt-pt Bósnio 
+359 bs pt-br Bósnio 
+360 bs qu Bosnian 
+361 bs ro Bosniacă 
+362 bs ru Боснийский 
+363 bs sl Bosnian 
+364 bs so Bosnian 
+365 bs sq Bosnian 
+366 bs sr Bosnian 
+367 bs sv Bosniska 
+368 bs ta Bosnian 
+369 bs th บอสเนียน 
+370 bs tr Boşnakça 
+371 bs uk Bosnian 
+372 bs ur Bosnian 
+373 bs uz Bosnian 
+374 bs vi Bosnian 
+375 bs yi Bosnian 
+376 bs zh-hans 波斯尼亚语 
+377 bs zu Bosnian 
+378 bs zh-hant 波士尼亞語 
+379 bg en Bulgarian 
+380 bg es Búlgaro 
+381 bg de Bulgarisch 
+382 bg fr Bulgare 
+383 bg ar البلغارية 
+384 bg bs Bulgarian 
+385 bg bg Bulgarian 
+386 bg ca Bulgarian 
+387 bg cs Bulgarian 
+388 bg sla Bulharčina 
+389 bg cy Bulgarian 
+390 bg da Bulgarian 
+391 bg el Βουλγαρικα 
+392 bg eo Bulgarian 
+393 bg et Bulgarian 
+394 bg eu Bulgarian 
+395 bg fa Bulgarian 
+396 bg fi bulgaria 
+397 bg ga Bulgarian 
+398 bg he Bulgarian 
+399 bg hi Bulgarian 
+400 bg hr Bulgarian 
+401 bg hu bolgár 
+402 bg hy Bulgarian 
+403 bg id Bulgarian 
+404 bg is Bulgarian 
+405 bg it Bulgaro 
+406 bg ja ブルガリア語 
+407 bg ko 불가리아어 
+408 bg ku Bulgarian 
+409 bg la Bulgarian 
+410 bg lv Bulgarian 
+411 bg lt Bulgarian 
+412 bg mk Bulgarian 
+413 bg mt Bulgarian 
+414 bg mo Bulgarian 
+415 bg mn Bulgarian 
+416 bg ne Bulgarian 
+417 bg nl Bulgaars 
+418 bg nb Bulgarian 
+419 bg pa Bulgarian 
+420 bg pl bułgarski 
+421 bg pt-pt Búlgaro 
+422 bg pt-br Búlgaro 
+423 bg qu Bulgarian 
+424 bg ro Bulgară 
+425 bg ru Болгарский 
+426 bg sl Bulgarian 
+427 bg so Bulgarian 
+428 bg sq Bulgarian 
+429 bg sr Bulgarian 
+430 bg sv Bulgariska 
+431 bg ta Bulgarian 
+432 bg th บัลแกเรียน 
+433 bg tr Bulgarca 
+434 bg uk Bulgarian 
+435 bg ur Bulgarian 
+436 bg uz Bulgarian 
+437 bg vi Bulgarian 
+438 bg yi Bulgarian 
+439 bg zh-hans 保加利亚语 
+440 bg zu Bulgarian 
+441 bg zh-hant 保加利亞語 
+442 ca en Catalan 
+443 ca es Catalán 
+444 ca de Katalanisch 
+445 ca fr Catalan 
+446 ca ar الكاتالوينية 
+447 ca bs Catalan 
+448 ca bg Catalan 
+449 ca ca Català 
+450 ca cs Catalan 
+451 ca sla Katalánčina 
+452 ca cy Catalan 
+453 ca da Catalan 
+454 ca el Καταλανικα 
+455 ca eo Catalan 
+456 ca et Catalan 
+457 ca eu Catalan 
+458 ca fa Catalan 
+459 ca fi katalaani 
+460 ca ga Catalan 
+461 ca he Catalan 
+462 ca hi Catalan 
+463 ca hr Catalan 
+464 ca hu katalán 
+465 ca hy Catalan 
+466 ca id Catalan 
+467 ca is Catalan 
+468 ca it Catalano 
+469 ca ja カタルーニャ語 
+470 ca ko 카탈로니아어 
+471 ca ku Catalan 
+472 ca la Catalan 
+473 ca lv Catalan 
+474 ca lt Catalan 
+475 ca mk Catalan 
+476 ca mt Catalan 
+477 ca mo Catalan 
+478 ca mn Catalan 
+479 ca ne Catalan 
+480 ca nl Catalaans 
+481 ca nb Catalan 
+482 ca pa Catalan 
+483 ca pl kataloński 
+484 ca pt-pt Catalão 
+485 ca pt-br Catalão 
+486 ca qu Catalan 
+487 ca ro Catalană 
+488 ca ru Каталанский 
+489 ca sl Catalan 
+490 ca so Catalan 
+491 ca sq Catalan 
+492 ca sr Catalan 
+493 ca sv Katalanska 
+494 ca ta Catalan 
+495 ca th คะตะลาน 
+496 ca tr Katalan dili 
+497 ca uk Catalan 
+498 ca ur Catalan 
+499 ca uz Catalan 
+500 ca vi Catalan 
+501 ca yi Catalan 
+502 ca zh-hans 加泰罗尼亚语 
+503 ca zu Catalan 
+504 ca zh-hant 加泰羅尼亞語 
+505 cs en Czech 
+506 cs es Checo 
+507 cs de Tschechisch 
+508 cs fr Tchèque 
+509 cs ar التشيكية 
+510 cs bs Czech 
+511 cs bg Czech 
+512 cs ca Czech 
+513 cs cs Čeština 
+514 cs sla Čeština 
+515 cs cy Czech 
+516 cs da Czech 
+517 cs el Τσεχικη 
+518 cs eo Czech 
+519 cs et Czech 
+520 cs eu Czech 
+521 cs fa Czech 
+522 cs fi tsekki 
+523 cs ga Czech 
+524 cs he Czech 
+525 cs hi Czech 
+526 cs hr Czech 
+527 cs hu cseh 
+528 cs hy Czech 
+529 cs id Czech 
+530 cs is Czech 
+531 cs it Ceco 
+532 cs ja チェコ語 
+533 cs ko 체코슬로바키아어 
+534 cs ku Czech 
+535 cs la Czech 
+536 cs lv Czech 
+537 cs lt Czech 
+538 cs mk Czech 
+539 cs mt Czech 
+540 cs mo Czech 
+541 cs mn Czech 
+542 cs ne Czech 
+543 cs nl Tsjechisch 
+544 cs nb Czech 
+545 cs pa Czech 
+546 cs pl czeski 
+547 cs pt-pt Checa 
+548 cs pt-br Checa 
+549 cs qu Czech 
+550 cs ro Cehă 
+551 cs ru Чешский 
+552 cs sl Czech 
+553 cs so Czech 
+554 cs sq Czech 
+555 cs sr Czech 
+556 cs sv Tjeckiska 
+557 cs ta Czech 
+558 cs th เช็ก 
+559 cs tr Çekçe 
+560 cs uk Czech 
+561 cs ur Czech 
+562 cs uz Czech 
+563 cs vi Czech 
+564 cs yi Czech 
+565 cs zh-hans 捷克语 
+566 cs zu Czech 
+567 cs zh-hant 捷克語 
+568 sla en Slavic 
+569 sla es Eslavo 
+570 sla de Slawisch 
+571 sla fr Slave 
+572 sla ar السلافية 
+573 sla bs Slavic 
+574 sla bg Slavic 
+575 sla ca Slavic 
+576 sla cs Slavic 
+577 sla sla Slávčina 
+578 sla cy Slavic 
+579 sla da Slavic 
+580 sla el Σλαβικη 
+581 sla eo Slavic 
+582 sla et Slavic 
+583 sla eu Slavic 
+584 sla fa Slavic 
+585 sla fi slaavi 
+586 sla ga Slavic 
+587 sla he Slavic 
+588 sla hi Slavic 
+589 sla hr Slavic 
+590 sla hu szláv 
+591 sla hy Slavic 
+592 sla id Slavic 
+593 sla is Slavic 
+594 sla it Slavo 
+595 sla ja スラヴ語派 
+596 sla ko 슬라브어 
+597 sla ku Slavic 
+598 sla la Slavic 
+599 sla lv Slavic 
+600 sla lt Slavic 
+601 sla mk Slavic 
+602 sla mt Slavic 
+603 sla mo Slavic 
+604 sla mn Slavic 
+605 sla ne Slavic 
+606 sla nl Slavisch 
+607 sla nb Slavic 
+608 sla pa Slavic 
+609 sla pl słowiański 
+610 sla pt-pt Eslava 
+611 sla pt-br Eslava 
+612 sla qu Slavic 
+613 sla ro Slavă 
+614 sla ru Славянский 
+615 sla sl Slavic 
+616 sla so Slavic 
+617 sla sq Slavic 
+618 sla sr Slavic 
+619 sla sv Slavisk 
+620 sla ta Slavic 
+621 sla th สลาวิก 
+622 sla tr Slav dili 
+623 sla uk Slavic 
+624 sla ur Slavic 
+625 sla uz Slavic 
+626 sla vi Slavic 
+627 sla yi Slavic 
+628 sla zh-hans 斯拉夫语 
+629 sla zu Slavic 
+630 sla zh-hant 斯拉夫語 
+631 cy en Welsh 
+632 cy es Galés 
+633 cy de Walisisch 
+634 cy fr Gallois 
+635 cy ar الولزية 
+636 cy bs Welsh 
+637 cy bg Welsh 
+638 cy ca Welsh 
+639 cy cs Welsh 
+640 cy sla Welština 
+641 cy cy Cymraeg 
+642 cy da Welsh 
+643 cy el Welsh 
+644 cy eo Welsh 
+645 cy et Welsh 
+646 cy eu Welsh 
+647 cy fa Welsh 
+648 cy fi kymri 
+649 cy ga Welsh 
+650 cy he Welsh 
+651 cy hi Welsh 
+652 cy hr Welsh 
+653 cy hu vels 
+654 cy hy Welsh 
+655 cy id Welsh 
+656 cy is Welsh 
+657 cy it Gallese 
+658 cy ja ウェールズ語 
+659 cy ko 웨일즈어 
+660 cy ku Welsh 
+661 cy la Welsh 
+662 cy lv Welsh 
+663 cy lt Welsh 
+664 cy mk Welsh 
+665 cy mt Welsh 
+666 cy mo Welsh 
+667 cy mn Welsh 
+668 cy ne Welsh 
+669 cy nl Welsh 
+670 cy nb Welsh 
+671 cy pa Welsh 
+672 cy pl walijski 
+673 cy pt-pt Welsh 
+674 cy pt-br Welsh 
+675 cy qu Welsh 
+676 cy ro Galeză 
+677 cy ru Валлийский 
+678 cy sl Welsh 
+679 cy so Welsh 
+680 cy sq Welsh 
+681 cy sr Welsh 
+682 cy sv Walesiska 
+683 cy ta Welsh 
+684 cy th เวลช์ 
+685 cy tr Galce 
+686 cy uk Welsh 
+687 cy ur Welsh 
+688 cy uz Welsh 
+689 cy vi Welsh 
+690 cy yi Welsh 
+691 cy zh-hans 威尔士语 
+692 cy zu Welsh 
+693 cy zh-hant 威爾士語 
+694 da en Danish 
+695 da es Danés 
+696 da de Dänisch 
+697 da fr Danois 
+698 da ar الدانماركية 
+699 da bs Danish 
+700 da bg Danish 
+701 da ca Danish 
+702 da cs Danish 
+703 da sla Dánčina 
+704 da cy Danish 
+705 da da Dansk 
+706 da el Δανεζικα 
+707 da eo Danish 
+708 da et Danish 
+709 da eu Danish 
+710 da fa Danish 
+711 da fi tanska 
+712 da ga Danish 
+713 da he דנית 
+714 da hi Danish 
+715 da hr Danish 
+716 da hu dán 
+717 da hy Danish 
+718 da id Danish 
+719 da is Danish 
+720 da it Danese 
+721 da ja デンマーク語 
+722 da ko 덴마크어 
+723 da ku Danish 
+724 da la Danish 
+725 da lv Danish 
+726 da lt Danish 
+727 da mk Danish 
+728 da mt Danish 
+729 da mo Danish 
+730 da mn Danish 
+731 da ne Danish 
+732 da nl Deens 
+733 da nb Danish 
+734 da pa Danish 
+735 da pl duński 
+736 da pt-pt Dinamarquês 
+737 da pt-br Dinamarquês 
+738 da qu Danish 
+739 da ro Daneză 
+740 da ru Датский 
+741 da sl Danish 
+742 da so Danish 
+743 da sq Danish 
+744 da sr Danish 
+745 da sv Danska 
+746 da ta Danish 
+747 da th เดนมาร์ก 
+748 da tr Danca 
+749 da uk Danish 
+750 da ur Danish 
+751 da uz Danish 
+752 da vi Danish 
+753 da yi Danish 
+754 da zh-hans 丹麦语 
+755 da zu Danish 
+756 da zh-hant 丹麥語 
+757 el en Greek 
+758 el es Griego 
+759 el de Griechisch 
+760 el fr Grec moderne 
+761 el ar اليونانية 
+762 el bs Greek 
+763 el bg Greek 
+764 el ca Greek 
+765 el cs Greek 
+766 el sla Gréčtina 
+767 el cy Greek 
+768 el da Greek 
+769 el el Ελληνικα 
+770 el eo Greek 
+771 el et Greek 
+772 el eu Greek 
+773 el fa Greek 
+774 el fi kreikka 
+775 el ga Greek 
+776 el he יוונית 
+777 el hi Greek 
+778 el hr Greek 
+779 el hu görög 
+780 el hy Greek 
+781 el id Greek 
+782 el is Greek 
+783 el it Greco 
+784 el ja ギリシア語 
+785 el ko 그리스어 
+786 el ku Greek 
+787 el la Greek 
+788 el lv Greek 
+789 el lt Greek 
+790 el mk Greek 
+791 el mt Greek 
+792 el mo Greek 
+793 el mn Greek 
+794 el ne Greek 
+795 el nl Grieks 
+796 el nb Greek 
+797 el pa Greek 
+798 el pl grecki 
+799 el pt-pt Grego 
+800 el pt-br Grego 
+801 el qu Greek 
+802 el ro Greacă 
+803 el ru Греческий 
+804 el sl Greek 
+805 el so Greek 
+806 el sq Greek 
+807 el sr Greek 
+808 el sv Grekiska 
+809 el ta Greek 
+810 el th กรีก 
+811 el tr Yunanca 
+812 el uk Greek 
+813 el ur Greek 
+814 el uz Greek 
+815 el vi Greek 
+816 el yi Greek 
+817 el zh-hans 希腊语 
+818 el zu Greek 
+819 el zh-hant 希臘語 
+820 eo en Esperanto 
+821 eo es Esperanto 
+822 eo de Esperanto 
+823 eo fr Espéranto 
+824 eo ar الاسبرانتو  
+825 eo bs Esperanto 
+826 eo bg Esperanto 
+827 eo ca Esperanto 
+828 eo cs Esperanto 
+829 eo sla Esperanto 
+830 eo cy Esperanto 
+831 eo da Esperanto 
+832 eo el Εσπεραντο 
+833 eo eo Esperanto 
+834 eo et Esperanto 
+835 eo eu Esperanto 
+836 eo fa Esperanto 
+837 eo fi esperanto 
+838 eo ga Esperanto 
+839 eo he Esperanto 
+840 eo hi Esperanto 
+841 eo hr Esperanto 
+842 eo hu eszperantó 
+843 eo hy Esperanto 
+844 eo id Esperanto 
+845 eo is Esperanto 
+846 eo it Esperanto 
+847 eo ja エスペラント語 
+848 eo ko 에스페란토어 
+849 eo ku Esperanto 
+850 eo la Esperanto 
+851 eo lv Esperanto 
+852 eo lt Esperanto 
+853 eo mk Esperanto 
+854 eo mt Esperanto 
+855 eo mo Esperanto 
+856 eo mn Esperanto 
+857 eo ne Esperanto 
+858 eo nl Esperanto 
+859 eo nb Esperanto 
+860 eo pa Esperanto 
+861 eo pl esperanto 
+862 eo pt-pt Esperanto 
+863 eo pt-br Esperanto 
+864 eo qu Esperanto 
+865 eo ro Esperanto 
+866 eo ru Эсперанто 
+867 eo sl Esperanto 
+868 eo so Esperanto 
+869 eo sq Esperanto 
+870 eo sr Esperanto 
+871 eo sv Esperanto 
+872 eo ta Esperanto 
+873 eo th เอสเปอรันโต 
+874 eo tr Esperanto 
+875 eo uk Esperanto 
+876 eo ur Esperanto 
+877 eo uz Esperanto 
+878 eo vi Esperanto 
+879 eo yi Esperanto 
+880 eo zh-hans 世界语 
+881 eo zu Esperanto 
+882 eo zh-hant 世界語 
+883 et en Estonian 
+884 et es Estonio 
+885 et de Estnisch 
+886 et fr Estonien 
+887 et ar الأستونية 
+888 et bs Estonian 
+889 et bg Estonian 
+890 et ca Estonian 
+891 et cs Estonian 
+892 et sla Estónčina 
+893 et cy Estonian 
+894 et da Estonian 
+895 et el Εσθονικα 
+896 et eo Estonian 
+897 et et Eesti 
+898 et eu Estonian 
+899 et fa Estonian 
+900 et fi eesti 
+901 et ga Estonian 
+902 et he Estonian 
+903 et hi Estonian 
+904 et hr Estonian 
+905 et hu észt 
+906 et hy Estonian 
+907 et id Estonian 
+908 et is Estonian 
+909 et it Estone 
+910 et ja エストニア語 
+911 et ko 에스토니아어 
+912 et ku Estonian 
+913 et la Estonian 
+914 et lv Estonian 
+915 et lt Estonian 
+916 et mk Estonian 
+917 et mt Estonian 
+918 et mo Estonian 
+919 et mn Estonian 
+920 et ne Estonian 
+921 et nl Ests 
+922 et nb Estonian 
+923 et pa Estonian 
+924 et pl estoński 
+925 et pt-pt Estoniano 
+926 et pt-br Estoniano 
+927 et qu Estonian 
+928 et ro Estoniană 
+929 et ru Эстонский 
+930 et sl Estonian 
+931 et so Estonian 
+932 et sq Estonian 
+933 et sr Estonian 
+934 et sv Estniska 
+935 et ta Estonian 
+936 et th เอสโตเนียน 
+937 et tr Estonya dili 
+938 et uk Estonian 
+939 et ur Estonian 
+940 et uz Estonian 
+941 et vi Estonian 
+942 et yi Estonian 
+943 et zh-hans 爱沙尼亚语 
+944 et zu Estonian 
+945 et zh-hant 愛沙尼亞語 
+946 eu en Basque 
+947 eu es Vasco 
+948 eu de Baskisch 
+949 eu fr Basque 
+950 eu ar لغة الباسك 
+951 eu bs Basque 
+952 eu bg Basque 
+953 eu ca Basque 
+954 eu cs Basque 
+955 eu sla Baskičtina 
+956 eu cy Basque 
+957 eu da Basque 
+958 eu el Βασκικα 
+959 eu eo Basque 
+960 eu et Basque 
+961 eu eu Basque 
+962 eu fa Basque 
+963 eu fi baski 
+964 eu ga Basque 
+965 eu he Basque 
+966 eu hi Basque 
+967 eu hr Basque 
+968 eu hu baszk 
+969 eu hy Basque 
+970 eu id Basque 
+971 eu is Basque 
+972 eu it Basco 
+973 eu ja バスク語 
+974 eu ko 바스크어 
+975 eu ku Basque 
+976 eu la Basque 
+977 eu lv Basque 
+978 eu lt Basque 
+979 eu mk Basque 
+980 eu mt Basque 
+981 eu mo Basque 
+982 eu mn Basque 
+983 eu ne Basque 
+984 eu nl Baskisch 
+985 eu nb Basque 
+986 eu pa Basque 
+987 eu pl baskijski 
+988 eu pt-pt Basco 
+989 eu pt-br Basco 
+990 eu qu Basque 
+991 eu ro Bască 
+992 eu ru Баскский 
+993 eu sl Basque 
+994 eu so Basque 
+995 eu sq Basque 
+996 eu sr Basque 
+997 eu sv Baskiska 
+998 eu ta Basque 
+999 eu th บาสค์ 
+1000 eu tr Bask dili 
+1001 eu uk Basque 
+1002 eu ur Basque 
+1003 eu uz Basque 
+1004 eu vi Basque 
+1005 eu yi Basque 
+1006 eu zh-hans 巴斯克语 
+1007 eu zu Basque 
+1008 eu zh-hant 巴斯克語 
+1009 fa en Persian 
+1010 fa es Persa 
+
+SELECT * from wp_icl_locale_map
+en en_US 
+fr fr_FR 
+
+SELECT count(*) from wp_icl_message_status
+0 
+
+SELECT * from wp_icl_node LIMIT 10, 1000
+
+SELECT * from wp_icl_reminders
+
+SELECT count(*) from wp_icl_string_positions
+34 
+
+SELECT * from wp_icl_string_status LIMIT 10, 1000
+
+SELECT * from wp_icl_string_translations
+1 36 en 2 You do not have sufficient permissions to access this page. 
+2 35 en 2 Thumbnail 
+3 9 en 2 Blog Archives 
+4 3 en 1 Results pour "%s" 
+
+SELECT count(*) from wp_icl_strings
+36 
+
+SELECT * from wp_icl_translate LIMIT 10, 1000
+
+SELECT * from wp_icl_translate_job
+1 1 1 1 1 0 
+
+SELECT count(*) from wp_icl_translation_status
+1 
+
+SELECT * from wp_icl_translations LIMIT 10, 1000
+12 tax_category 9 40 fr  
+24 tax_nav_menu 4 54 en  
+14 tax_link_category 2 48 fr  
+15 comment 1 50 fr  
+16 tax_category 10 32 en fr 
+17 post_post 32 1 en fr 
+18 tax_category 11 40 en fr 
+19 tax_category 12 34 en fr 
+20 tax_category 13 37 en fr 
+39 post_nav_menu_item 35 69 en  
+40 post_nav_menu_item 36 70 en  
+38 post_nav_menu_item 37 68 en  
+59 post_nav_menu_item 39 87 fr  
+60 post_nav_menu_item 40 88 fr  
+57 post_nav_menu_item 41 85 fr  
+61 post_nav_menu_item 47 89 en  
+62 post_nav_menu_item 48 90 en  
+
+SELECT * from wp_links
+1 http://codex.wordpress.org/ Documentation    Y 1 0 1/1/0001 12:00:00 AM    
+2 http://wordpress.org/news/ WordPress Blog    Y 1 0 1/1/0001 12:00:00 AM   http://wordpress.org/news/feed/ 
+3 http://wordpress.org/extend/ideas/ Suggest Ideas    Y 1 0 1/1/0001 12:00:00 AM    
+4 http://wordpress.org/support/ Support Forum    Y 1 0 1/1/0001 12:00:00 AM    
+5 http://wordpress.org/extend/plugins/ Plugins    Y 1 0 1/1/0001 12:00:00 AM    
+6 http://wordpress.org/extend/themes/ Themes    Y 1 0 1/1/0001 12:00:00 AM    
+7 http://planet.wordpress.org/ WordPress Planet    Y 1 0 1/1/0001 12:00:00 AM    
+
+SELECT count(*) from wp_options
+271 
+
+SELECT * from wp_postmeta LIMIT 10, 1000
+218 50 _wp_attachment_metadata a:6:{s:5:"width";s:4:"2370";s:6:"height";s:4:"1576";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:33:"2011/06/boucle-oreille-cuivre.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:33:"boucle-oreille-cuivre-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:33:"boucle-oreille-cuivre-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:34:"boucle-oreille-cuivre-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1309000013";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.625";s:5:"title";s:0:"";}} 
+17 11 _wp_attached_file 2011/06/logo.png 
+18 11 _wp_attachment_metadata a:5:{s:5:"width";s:3:"150";s:6:"height";s:2:"35";s:14:"hwstring_small";s:23:"height='29' width='128'";s:4:"file";s:16:"2011/06/logo.png";s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}} 
+19 12 _wp_attached_file 2011/06/logo1.png 
+20 12 _wp_attachment_metadata a:5:{s:5:"width";s:3:"150";s:6:"height";s:2:"35";s:14:"hwstring_small";s:23:"height='29' width='128'";s:4:"file";s:17:"2011/06/logo1.png";s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}} 
+21 13 _wp_attached_file 2011/06/main-back.png 
+22 13 _wp_attachment_metadata a:6:{s:5:"width";s:4:"1310";s:6:"height";s:3:"126";s:14:"hwstring_small";s:23:"height='12' width='128'";s:4:"file";s:21:"2011/06/main-back.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:21:"main-back-150x126.png";s:5:"width";s:3:"150";s:6:"height";s:3:"126";}s:6:"medium";a:3:{s:4:"file";s:20:"main-back-300x28.png";s:5:"width";s:3:"300";s:6:"height";s:2:"28";}s:5:"large";a:3:{s:4:"file";s:21:"main-back-1024x98.png";s:5:"width";s:4:"1024";s:6:"height";s:2:"98";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}} 
+221 14 _thumbnail_id 50 
+24 14 _edit_last 1 
+25 14 _edit_lock 1320778245:1 
+26 14 slide_link_to Image 
+279 4 _wp_old_slug boucles-oreilles-en-argent 
+278 14 _wp_old_slug boucles-oreilles-en-cuivre 
+480 154 _wp_attached_file 2011/10/green-starfish-crystal-silver-pendant.jpg 
+233 54 _wp_attached_file 2011/06/pendentif-petit-feuille.jpg 
+172 41 _menu_item_menu_item_parent 0 
+309 75 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:34:"2011/07/pendentif-crystal-oeuf.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:34:"pendentif-crystal-oeuf-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:34:"pendentif-crystal-oeuf-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:35:"pendentif-crystal-oeuf-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"6.3";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1312123400";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:14:"0.166666666667";s:5:"title";s:0:"";}} 
+173 41 _menu_item_object_id 41 
+174 41 _menu_item_object custom 
+280 67 _edit_last 1 
+281 67 _edit_lock 1320789404:1 
+282 67 page_style Full Width 
+283 67 caption_style Description Only 
+284 67 _wp_page_template default 
+308 75 _wp_attached_file 2011/07/pendentif-crystal-oeuf.jpg 
+234 54 _wp_attachment_metadata a:6:{s:5:"width";s:4:"2001";s:6:"height";s:4:"1334";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:35:"2011/06/pendentif-petit-feuille.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:35:"pendentif-petit-feuille-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:35:"pendentif-petit-feuille-300x200.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"200";}s:5:"large";a:3:{s:4:"file";s:36:"pendentif-petit-feuille-1024x682.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"682";}}s:10:"image_meta";a:10:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1309004282";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.625";s:5:"title";s:0:"";}} 
+478 153 _edit_last 1 
+235 54 _wp_attachment_image_alt Petit pendentif en argent 
+213 48 _menu_item_url  
+212 48 _menu_item_xfn  
+271 55 _wp_old_slug boucle-doreille-en-argent-avec-cubiques 
+171 41 _menu_item_type custom 
+175 41 _menu_item_target  
+176 41 _menu_item_classes a:1:{i:0;s:0:"";} 
+177 41 _menu_item_xfn  
+178 41 _menu_item_url / 
+182 44 _edit_last 1 
+183 44 _edit_lock 1309461732:1 
+184 44 page_style Full Width 
+185 44 caption_style Description Only 
+186 44 _wp_page_template default 
+211 48 _menu_item_classes a:1:{i:0;s:0:"";} 
+210 48 _menu_item_target  
+209 48 _menu_item_object page 
+208 48 _menu_item_object_id 44 
+207 48 _menu_item_menu_item_parent 0 
+206 48 _menu_item_type post_type 
+329 88 _eshop_product a:8:{s:3:"sku";s:6:"abc001";s:8:"products";a:3:{i:1;a:3:{s:6:"option";s:7:"default";s:5:"price";s:2:"30";s:9:"saleprice";s:0:"";}i:2;a:3:{s:6:"option";s:0:"";s:5:"price";s:0:"";s:9:"saleprice";s:0:"";}i:3;a:3:{s:6:"option";s:0:"";s:5:"price";s:0:"";s:9:"saleprice";s:0:"";}}s:11:"description";s:4:"Test";s:8:"shiprate";s:0:"";s:8:"featured";s:2:"no";s:4:"sale";s:2:"no";s:10:"cart_radio";s:1:"1";s:6:"optset";s:0:"";} 
+324 88 _edit_lock 1314255689:1 
+321 88 _edit_last 1 
+230 52 _wp_attachment_image_alt Boucles d'oreilles en argent 
+220 50 _wp_attachment_image_alt Boucles d'oreilles en cuivre 
+222 14 _wp_old_slug 14 
+227 52 _wp_attached_file 2011/06/boucle-oreille-argent-feuille1.jpg 
+224 4 _wp_old_slug feuilles 
+228 52 _wp_attachment_metadata a:6:{s:5:"width";s:4:"2438";s:6:"height";s:4:"1624";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:42:"2011/06/boucle-oreille-argent-feuille1.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:42:"boucle-oreille-argent-feuille1-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:42:"boucle-oreille-argent-feuille1-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:43:"boucle-oreille-argent-feuille1-1024x682.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"682";}}s:10:"image_meta";a:10:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1308928743";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:14:"0.769230769231";s:5:"title";s:0:"";}} 
+229 4 _thumbnail_id 61 
+479 153 _edit_lock 1320776249:1 
+448 145 _wp_attached_file 2011/06/boucle-oreille-argent-cubic.jpg 
+317 78 _wp_attached_file 2011/07/pendentif-argent-feuille.jpg 
+239 56 _wp_attached_file 2011/06/DSC_0100.jpg 
+240 56 _wp_attachment_metadata a:6:{s:5:"width";s:4:"1975";s:6:"height";s:4:"1317";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:20:"2011/06/DSC_0100.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"DSC_0100-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"DSC_0100-300x200.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"200";}s:5:"large";a:3:{s:4:"file";s:21:"DSC_0100-1024x682.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"682";}}s:10:"image_meta";a:10:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1309206962";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.625";s:5:"title";s:0:"";}} 
+241 55 _thumbnail_id 145 
+242 56 _wp_attachment_image_alt Boucle d'oreille en argent avec cubiques 
+243 55 _edit_last 1 
+244 55 _edit_lock 1320987137:1 
+245 55 slide_link_to URL 
+266 64 _wp_attachment_metadata a:6:{s:5:"width";s:4:"2757";s:6:"height";s:4:"1838";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:35:"2011/06/pendentif-fleur-argent1.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:35:"pendentif-fleur-argent1-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:35:"pendentif-fleur-argent1-300x200.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"200";}s:5:"large";a:3:{s:4:"file";s:36:"pendentif-fleur-argent1-1024x682.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"682";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}} 
+256 58 _thumbnail_id 64 
+265 64 _wp_attached_file 2011/06/pendentif-fleur-argent1.jpg 
+258 61 _wp_attached_file 2011/06/boucle-oreille-argent-feuille.jpg 
+259 61 _wp_attachment_metadata a:6:{s:5:"width";s:4:"2438";s:6:"height";s:4:"1624";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:41:"2011/06/boucle-oreille-argent-feuille.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:41:"boucle-oreille-argent-feuille-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:41:"boucle-oreille-argent-feuille-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:42:"boucle-oreille-argent-feuille-1024x682.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"682";}}s:10:"image_meta";a:10:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1308928743";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:14:"0.769230769231";s:5:"title";s:0:"";}} 
+250 58 _edit_last 1 
+251 58 slide_link_to Image 
+252 58 _edit_lock 1320778294:1 
+267 64 _wp_attachment_image_alt Pendentif "fleur" en argent 
+260 61 _wp_attachment_image_alt Boucles d'oreilles en argent 
+261 58 wysiwyg a:2:{s:18:"plain_text_editing";s:0:"";s:13:"post_modified";s:19:"2011-06-29 03:34:02";} 
+270 58 _wp_old_slug pendentif-en-argent-fleur 
+285 69 _edit_last 1 
+286 69 page_style Full Width 
+287 69 caption_style Description Only 
+288 69 _wp_page_template default 
+289 69 _edit_lock 1320789425:1 
+315 77 _edit_last 1 
+316 77 _edit_lock 1320778256:1 
+310 75 _wp_attachment_image_alt Silver pendant with egg-shaped zirconia 
+311 76 _thumbnail_id 75 
+312 76 _edit_last 1 
+313 76 _edit_lock 1320778279:1 
+314 76 slide_link_to Image 
+318 78 _wp_attachment_metadata a:6:{s:5:"width";s:4:"2674";s:6:"height";s:4:"1778";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:36:"2011/07/pendentif-argent-feuille.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:36:"pendentif-argent-feuille-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:36:"pendentif-argent-feuille-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:37:"pendentif-argent-feuille-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"6.3";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1312127550";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:3:"0.1";s:5:"title";s:0:"";}} 
+458 147 _wp_attached_file 2011/07/silver-leaf-pendant.jpg 
+330 88 _eshop_stock 1 
+340 104 _edit_last 1 
+341 104 _edit_lock 1320778131:1 
+342 104 slide_link_to URL 
+343 105 _wp_attached_file 2011/08/silver-zirconia-heart-pendant.jpg 
+344 105 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:41:"2011/08/silver-zirconia-heart-pendant.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:41:"silver-zirconia-heart-pendant-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:41:"silver-zirconia-heart-pendant-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:42:"silver-zirconia-heart-pendant-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"6.3";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1314548299";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:4:"0.25";s:5:"title";s:0:"";}} 
+345 104 _thumbnail_id 105 
+346 106 _edit_last 1 
+347 106 _edit_lock 1320778119:1 
+348 106 slide_link_to URL 
+349 107 _wp_attached_file 2011/08/swarovski-indigo-heart-silver-pendant.jpg 
+350 107 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:49:"2011/08/swarovski-indigo-heart-silver-pendant.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:49:"swarovski-indigo-heart-silver-pendant-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:49:"swarovski-indigo-heart-silver-pendant-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:50:"swarovski-indigo-heart-silver-pendant-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"6.3";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1314548895";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:4:"0.25";s:5:"title";s:0:"";}} 
+351 106 _thumbnail_id 107 
+352 108 _edit_last 1 
+353 108 _edit_lock 1320987311:1 
+354 111 _wp_attached_file 2011/08/swarovski-red-heart-silver-pendant.jpg 
+355 111 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:46:"2011/08/swarovski-red-heart-silver-pendant.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:46:"swarovski-red-heart-silver-pendant-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:46:"swarovski-red-heart-silver-pendant-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:47:"swarovski-red-heart-silver-pendant-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"6.3";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1314549834";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+356 110 _thumbnail_id 111 
+357 110 _edit_last 1 
+358 110 slide_link_to URL 
+359 110 _edit_lock 1320778107:1 
+360 112 _edit_last 1 
+361 112 _edit_lock 1321721913:1 
+362 113 _wp_attached_file 2011/08/red-yellow-beads-silver-earrings.jpg 
+363 113 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:44:"2011/08/red-yellow-beads-silver-earrings.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:44:"red-yellow-beads-silver-earrings-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:44:"red-yellow-beads-silver-earrings-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:45:"red-yellow-beads-silver-earrings-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"6.3";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1314550988";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:4:"0.05";s:5:"title";s:0:"";}} 
+364 112 _thumbnail_id 113 
+365 112 slide_link_to URL 
+392 128 _edit_last 1 
+393 128 _edit_lock 1320777708:1 
+394 128 slide_link_to URL 
+395 129 _wp_attached_file 2011/09/silver-ring-with-silver-and-brass-flower-design.jpg 
+396 129 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:59:"2011/09/silver-ring-with-silver-and-brass-flower-design.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:59:"silver-ring-with-silver-and-brass-flower-design-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:59:"silver-ring-with-silver-and-brass-flower-design-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:60:"silver-ring-with-silver-and-brass-flower-design-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1315754759";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:3:"0.1";s:5:"title";s:0:"";}} 
+397 128 _thumbnail_id 129 
+398 130 _edit_last 1 
+399 130 _edit_lock 1320777865:1 
+400 131 _wp_attached_file 2011/09/small-silver-earrings-with-white-pearl.jpg 
+401 131 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:50:"2011/09/small-silver-earrings-with-white-pearl.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:50:"small-silver-earrings-with-white-pearl-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:50:"small-silver-earrings-with-white-pearl-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:51:"small-silver-earrings-with-white-pearl-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1315751639";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:14:"0.166666666667";s:5:"title";s:0:"";}} 
+402 130 _thumbnail_id 131 
+403 130 slide_link_to Image 
+404 133 _wp_attached_file 2011/09/small-silver-earrings-heart-design.jpg 
+405 133 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:46:"2011/09/small-silver-earrings-heart-design.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:46:"small-silver-earrings-heart-design-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:46:"small-silver-earrings-heart-design-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:47:"small-silver-earrings-heart-design-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1315751101";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:14:"0.166666666667";s:5:"title";s:0:"";}} 
+406 132 _thumbnail_id 133 
+407 132 _edit_last 1 
+408 132 _edit_lock 1320777852:1 
+409 132 slide_link_to URL 
+410 134 _edit_last 1 
+411 134 _edit_lock 1320777840:1 
+412 135 _wp_attached_file 2011/09/silver-and-carnelian-pendant.jpg 
+413 135 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:40:"2011/09/silver-and-carnelian-pendant.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:40:"silver-and-carnelian-pendant-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:40:"silver-and-carnelian-pendant-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:41:"silver-and-carnelian-pendant-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"6.3";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1314551606";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:4:"0.04";s:5:"title";s:0:"";}} 
+414 134 _thumbnail_id 135 
+415 134 slide_link_to URL 
+445 132 gallery_link_url http://www.etsy.com/listing/82435639/handmade-small-silver-earrings-with 
+417 134 gallery_link_url http://www.etsy.com/listing/83688746/silver-and-carnelian-pendant 
+418 130 gallery_link_url http://www.etsy.com/listing/83688902/small-silver-earrings-with-white-pearl 
+419 128 gallery_link_url http://www.etsy.com/listing/82435342/handmade-silver-ring-with-silver-and 
+420 137 _edit_last 1 
+421 137 _edit_lock 1320789438:1 
+422 4 slide_link_to Image 
+423 77 slide_link_to URL 
+426 140 _wp_attached_file 2011/09/silver-pendant-s-shaped.jpg 
+427 140 _wp_attachment_metadata a:6:{s:5:"width";s:4:"2498";s:6:"height";s:4:"1660";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:35:"2011/09/silver-pendant-s-shaped.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:35:"silver-pendant-s-shaped-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:35:"silver-pendant-s-shaped-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:36:"silver-pendant-s-shaped-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1316359032";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0666666666667";s:5:"title";s:0:"";}} 
+428 138 _thumbnail_id 140 
+429 138 _edit_last 1 
+430 138 _edit_lock 1320777689:1 
+431 138 slide_link_to URL 
+432 138 _wp_old_slug silver-s-shaped-pendant 
+433 142 _wp_attached_file 2011/09/handmade-silver-pendant-circle-spiral-and-balls.jpg 
+434 142 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:59:"2011/09/handmade-silver-pendant-circle-spiral-and-balls.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:59:"handmade-silver-pendant-circle-spiral-and-balls-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:59:"handmade-silver-pendant-circle-spiral-and-balls-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:60:"handmade-silver-pendant-circle-spiral-and-balls-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1316359615";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0666666666667";s:5:"title";s:0:"";}} 
+435 141 _thumbnail_id 142 
+436 141 _edit_last 1 
+437 141 _edit_lock 1320777677:1 
+438 141 slide_link_to URL 
+439 144 _wp_attached_file 2011/09/handmade-silver-pendant-circle-wave-and-balls.jpg 
+440 144 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:57:"2011/09/handmade-silver-pendant-circle-wave-and-balls.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:57:"handmade-silver-pendant-circle-wave-and-balls-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:57:"handmade-silver-pendant-circle-wave-and-balls-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:58:"handmade-silver-pendant-circle-wave-and-balls-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1316359836";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0666666666667";s:5:"title";s:0:"";}} 
+441 143 _thumbnail_id 144 
+442 143 _edit_last 1 
+443 143 _edit_lock 1320777637:1 
+444 143 slide_link_to URL 
+449 145 _wp_attachment_metadata a:6:{s:5:"width";s:4:"1975";s:6:"height";s:4:"1317";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:39:"2011/06/boucle-oreille-argent-cubic.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:39:"boucle-oreille-argent-cubic-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:39:"boucle-oreille-argent-cubic-300x200.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"200";}s:5:"large";a:3:{s:4:"file";s:40:"boucle-oreille-argent-cubic-1024x682.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"682";}}s:10:"image_meta";a:10:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1309206962";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.625";s:5:"title";s:0:"";}} 
+450 143 gallery_link_url http://www.etsy.com/listing/82435265/handmade-silver-circle-pendant-with 
+451 141 gallery_link_url http://www.etsy.com/listing/82434689/handmade-silver-circle-pendant-with 
+452 138 gallery_link_url http://www.etsy.com/listing/82435188/handmade-silver-s-shaped-pendant 
+593 184 _menu_item_type custom 
+594 184 _menu_item_menu_item_parent 185 
+454 110 gallery_link_url http://www.etsy.com/listing/83689045/silver-pendant-with-red-swarovski 
+455 106 gallery_link_url http://www.etsy.com/listing/83689116/silver-pendant-with-indigo-swarovski 
+456 104 gallery_link_url http://www.etsy.com/listing/83689192/silver-and-glass-heart-pendant 
+457 77 gallery_link_url http://www.etsy.com/listing/82436384/handmade-silver-leaf-shaped-pendant 
+459 147 _wp_attachment_metadata a:6:{s:5:"width";s:4:"2674";s:6:"height";s:4:"1778";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:31:"2011/07/silver-leaf-pendant.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:31:"silver-leaf-pendant-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:31:"silver-leaf-pendant-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:32:"silver-leaf-pendant-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"6.3";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1312127550";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:3:"0.1";s:5:"title";s:0:"";}} 
+460 77 _thumbnail_id 147 
+461 148 _edit_last 1 
+462 148 _edit_lock 1320777619:1 
+463 149 _wp_attached_file 2011/10/handmade-copper-earrings-with-blue-oxidation-and-white-pearls.jpg 
+464 149 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:73:"2011/10/handmade-copper-earrings-with-blue-oxidation-and-white-pearls.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:73:"handmade-copper-earrings-with-blue-oxidation-and-white-pearls-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:73:"handmade-copper-earrings-with-blue-oxidation-and-white-pearls-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:74:"handmade-copper-earrings-with-blue-oxidation-and-white-pearls-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1318535250";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+467 150 _wp_attached_file 2011/10/handmade-copper-earrings-with-blue-oxidation-and-white-pearls1.jpg 
+466 148 slide_link_to URL 
+468 150 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:74:"2011/10/handmade-copper-earrings-with-blue-oxidation-and-white-pearls1.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:74:"handmade-copper-earrings-with-blue-oxidation-and-white-pearls1-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:74:"handmade-copper-earrings-with-blue-oxidation-and-white-pearls1-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:75:"handmade-copper-earrings-with-blue-oxidation-and-white-pearls1-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1318535250";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+469 148 _thumbnail_id 150 
+470 148 gallery_link_url http://www.etsy.com/listing/83823530/handmade-copper-earrings-with-blue 
+471 151 _edit_last 1 
+472 151 _edit_lock 1320900604:1 
+473 152 _wp_attached_file 2011/10/handmade-copper-earrings-fish-shaped-with-blue-beads.jpg 
+474 152 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:64:"2011/10/handmade-copper-earrings-fish-shaped-with-blue-beads.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:64:"handmade-copper-earrings-fish-shaped-with-blue-beads-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:64:"handmade-copper-earrings-fish-shaped-with-blue-beads-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:65:"handmade-copper-earrings-fish-shaped-with-blue-beads-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1318541240";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+475 151 _thumbnail_id 152 
+476 151 slide_link_to URL 
+538 55 gallery_link_url http://www.etsy.com/listing/82435885/handmade-silver-earrings-with-cubic 
+481 154 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:49:"2011/10/green-starfish-crystal-silver-pendant.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:49:"green-starfish-crystal-silver-pendant-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:49:"green-starfish-crystal-silver-pendant-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:50:"green-starfish-crystal-silver-pendant-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1319657293";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0769230769231";s:5:"title";s:0:"";}} 
+482 153 _thumbnail_id 154 
+483 153 slide_link_to URL 
+484 155 _edit_last 1 
+485 155 _edit_lock 1320776224:1 
+486 155 slide_link_to URL 
+487 156 _wp_attached_file 2011/10/blue-starfish-crystal-silver-pendant.jpg 
+488 156 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:48:"2011/10/blue-starfish-crystal-silver-pendant.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:48:"blue-starfish-crystal-silver-pendant-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:48:"blue-starfish-crystal-silver-pendant-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:49:"blue-starfish-crystal-silver-pendant-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1319657811";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:3:"0.1";s:5:"title";s:0:"";}} 
+489 155 _thumbnail_id 156 
+490 158 _wp_attached_file 2011/10/yellow-drop-crystal-silver-earrings.jpg 
+491 158 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:47:"2011/10/yellow-drop-crystal-silver-earrings.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:47:"yellow-drop-crystal-silver-earrings-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:47:"yellow-drop-crystal-silver-earrings-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:48:"yellow-drop-crystal-silver-earrings-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1319658641";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+492 157 _thumbnail_id 158 
+493 157 _edit_last 1 
+494 157 _edit_lock 1320769595:1 
+495 157 slide_link_to URL 
+496 160 _wp_attached_file 2011/10/handmade-hazelnut-silver-pendant.jpg 
+497 160 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:44:"2011/10/handmade-hazelnut-silver-pendant.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:44:"handmade-hazelnut-silver-pendant-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:44:"handmade-hazelnut-silver-pendant-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:45:"handmade-hazelnut-silver-pendant-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1319656697";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0769230769231";s:5:"title";s:0:"";}} 
+498 159 _thumbnail_id 160 
+499 159 _edit_last 1 
+500 159 _edit_lock 1320769577:1 
+501 159 slide_link_to URL 
+502 155 gallery_link_url http://www.etsy.com/listing/84754471/blue-starfish-crystal-silver-pendant 
+503 153 gallery_link_url http://www.etsy.com/listing/84754530/green-starfish-crystal-silver-pendant 
+504 159 gallery_link_url http://www.etsy.com/listing/84754682/handmade-orange-hazelnut-shaped-silver 
+506 161 _menu_item_type custom 
+507 161 _menu_item_menu_item_parent 189 
+508 161 _menu_item_object_id 161 
+509 161 _menu_item_object custom 
+510 161 _menu_item_target  
+511 161 _menu_item_classes a:1:{i:0;s:0:"";} 
+512 161 _menu_item_xfn  
+513 161 _menu_item_url # 
+524 163 _menu_item_type custom 
+525 163 _menu_item_menu_item_parent 0 
+526 163 _menu_item_object_id 163 
+527 163 _menu_item_object custom 
+528 163 _menu_item_target  
+529 163 _menu_item_classes a:1:{i:0;s:0:"";} 
+530 163 _menu_item_xfn  
+531 163 _menu_item_url http://etsy.com/shop/bikajewels 
+533 108 slide_link_to URL 
+534 108 _thumbnail_id 111 
+535 137 page_style Full Width 
+536 137 caption_style Description Only 
+537 137 _wp_page_template default 
+539 108 gallery_link_url http://www.etsy.com/listing/83689045/silver-pendant-with-red-swarovski 
+540 169 _edit_last 1 
+541 169 _edit_lock 1321721908:1 
+542 170 _wp_attached_file 2011/11/handmade-copper-disc-earrings-with-silver-wire.jpg 
+543 170 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:58:"2011/11/handmade-copper-disc-earrings-with-silver-wire.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:58:"handmade-copper-disc-earrings-with-silver-wire-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:58:"handmade-copper-disc-earrings-with-silver-wire-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:59:"handmade-copper-disc-earrings-with-silver-wire-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321303784";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:14:"0.166666666667";s:5:"title";s:0:"";}} 
+547 171 _wp_attached_file 2011/11/handmade-copper-disc-earrings-with-silver-wire1.jpg 
+545 169 slide_link_to Image 
+595 184 _menu_item_object_id 184 
+548 171 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:59:"2011/11/handmade-copper-disc-earrings-with-silver-wire1.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:59:"handmade-copper-disc-earrings-with-silver-wire1-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:59:"handmade-copper-disc-earrings-with-silver-wire1-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:60:"handmade-copper-disc-earrings-with-silver-wire1-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321303784";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:14:"0.166666666667";s:5:"title";s:0:"";}} 
+588 182 _wp_attached_file 2011/11/handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads1.jpg 
+550 173 _wp_attached_file 2011/11/handmade-copper-earrings-with-cubic-zirconia.jpg 
+551 173 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:56:"2011/11/handmade-copper-earrings-with-cubic-zirconia.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:56:"handmade-copper-earrings-with-cubic-zirconia-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:56:"handmade-copper-earrings-with-cubic-zirconia-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:57:"handmade-copper-earrings-with-cubic-zirconia-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321304569";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0666666666667";s:5:"title";s:0:"";}} 
+552 172 _thumbnail_id 173 
+553 172 _edit_last 1 
+554 172 _edit_lock 1321329494:1 
+555 172 slide_link_to URL 
+556 172 gallery_link_url http://www.etsy.com/listing/86167036/handmade-copper-earrings-with-cubic 
+557 175 _wp_attached_file 2011/11/handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads.jpg 
+558 175 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:77:"2011/11/handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:77:"handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:77:"handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:78:"handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321306743";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+559 174 _thumbnail_id 175 
+560 174 _edit_last 1 
+561 174 _edit_lock 1322278426:1 
+562 174 slide_link_to URL 
+564 177 _wp_attached_file 2011/11/Handmade-Copper-Earrings-Parrot-shaped-with-Blue-Oxidation.jpg 
+565 177 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:70:"2011/11/Handmade-Copper-Earrings-Parrot-shaped-with-Blue-Oxidation.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:70:"Handmade-Copper-Earrings-Parrot-shaped-with-Blue-Oxidation-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:70:"Handmade-Copper-Earrings-Parrot-shaped-with-Blue-Oxidation-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:71:"Handmade-Copper-Earrings-Parrot-shaped-with-Blue-Oxidation-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321307359";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+566 176 _thumbnail_id 177 
+567 176 _edit_last 1 
+568 176 slide_link_to URL 
+569 176 gallery_link_url http://www.etsy.com/listing/86170173/handmade-copper-earrings-parrot-shaped 
+570 176 _edit_lock 1321328825:1 
+571 179 _wp_attached_file 2011/11/Silver-Chain-Earrings-with-Transparent-Beads.jpg 
+572 179 _wp_attachment_metadata a:6:{s:5:"width";s:4:"1373";s:6:"height";s:4:"1999";s:14:"hwstring_small";s:22:"height='96' width='65'";s:4:"file";s:56:"2011/11/Silver-Chain-Earrings-with-Transparent-Beads.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:56:"Silver-Chain-Earrings-with-Transparent-Beads-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:56:"Silver-Chain-Earrings-with-Transparent-Beads-206x300.jpg";s:5:"width";s:3:"206";s:6:"height";s:3:"300";}s:5:"large";a:3:{s:4:"file";s:57:"Silver-Chain-Earrings-with-Transparent-Beads-703x1024.jpg";s:5:"width";s:3:"703";s:6:"height";s:4:"1024";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"5";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321308224";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+573 178 _thumbnail_id 179 
+574 178 _edit_last 1 
+575 178 _edit_lock 1321328550:1 
+576 178 slide_link_to URL 
+577 178 gallery_link_url http://www.etsy.com/listing/86172265/silver-chain-earrings-with-transparent 
+578 181 _wp_attached_file 2011/11/Silver-Chain-Earrings-with-White-Pearls-and-Pink-Beads.jpg 
+579 181 _wp_attachment_metadata a:6:{s:5:"width";s:4:"1080";s:6:"height";s:4:"1752";s:14:"hwstring_small";s:22:"height='96' width='59'";s:4:"file";s:66:"2011/11/Silver-Chain-Earrings-with-White-Pearls-and-Pink-Beads.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:66:"Silver-Chain-Earrings-with-White-Pearls-and-Pink-Beads-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:66:"Silver-Chain-Earrings-with-White-Pearls-and-Pink-Beads-184x300.jpg";s:5:"width";s:3:"184";s:6:"height";s:3:"300";}s:5:"large";a:3:{s:4:"file";s:67:"Silver-Chain-Earrings-with-White-Pearls-and-Pink-Beads-631x1024.jpg";s:5:"width";s:3:"631";s:6:"height";s:4:"1024";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"5";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321309415";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+580 180 _thumbnail_id 181 
+581 180 _edit_last 1 
+582 180 slide_link_to URL 
+583 180 gallery_link_url http://www.etsy.com/listing/86173188/silver-chain-earrings-with-white-pearls 
+584 180 _edit_lock 1321721881:1 
+585 180 _wp_old_slug silver-chain-earrings-with-white-pearls-and-pink-beads 
+586 178 _wp_old_slug silver-chain-earrings-with-transparent-beads 
+587 174 _wp_old_slug handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads 
+589 182 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:78:"2011/11/handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads1.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:78:"handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads1-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:78:"handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads1-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:79:"handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads1-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321306743";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:5:"0.125";s:5:"title";s:0:"";}} 
+590 183 _wp_attached_file 2011/11/handmade-copper-disc-earrings-with-silver-wire2.jpg 
+591 183 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:59:"2011/11/handmade-copper-disc-earrings-with-silver-wire2.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:59:"handmade-copper-disc-earrings-with-silver-wire2-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:59:"handmade-copper-disc-earrings-with-silver-wire2-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:60:"handmade-copper-disc-earrings-with-silver-wire2-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"5.6";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321303784";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:14:"0.166666666667";s:5:"title";s:0:"";}} 
+592 169 _thumbnail_id 183 
+596 184 _menu_item_object custom 
+597 184 _menu_item_target  
+598 184 _menu_item_classes a:1:{i:0;s:0:"";} 
+599 184 _menu_item_xfn  
+600 184 _menu_item_url http://bikajewels.com/?category=earring 
+621 187 _menu_item_menu_item_parent 185 
+602 185 _menu_item_type custom 
+603 185 _menu_item_menu_item_parent 0 
+604 185 _menu_item_object_id 185 
+605 185 _menu_item_object custom 
+606 185 _menu_item_target  
+607 185 _menu_item_classes a:1:{i:0;s:0:"";} 
+608 185 _menu_item_xfn  
+609 185 _menu_item_url # 
+622 187 _menu_item_object_id 187 
+611 186 _menu_item_type custom 
+612 186 _menu_item_menu_item_parent 185 
+613 186 _menu_item_object_id 186 
+614 186 _menu_item_object custom 
+615 186 _menu_item_target  
+616 186 _menu_item_classes a:1:{i:0;s:0:"";} 
+617 186 _menu_item_xfn  
+618 186 _menu_item_url http://bikajewels.com/?category=pendant 
+620 187 _menu_item_type custom 
+629 188 _menu_item_type custom 
+623 187 _menu_item_object custom 
+624 187 _menu_item_target  
+625 187 _menu_item_classes a:1:{i:0;s:0:"";} 
+626 187 _menu_item_xfn  
+627 187 _menu_item_url http://bikajewels.com/?category=ring 
+630 188 _menu_item_menu_item_parent 185 
+631 188 _menu_item_object_id 188 
+632 188 _menu_item_object custom 
+633 188 _menu_item_target  
+634 188 _menu_item_classes a:1:{i:0;s:0:"";} 
+635 188 _menu_item_xfn  
+636 188 _menu_item_url http://bikajewels.com 
+638 189 _menu_item_type custom 
+639 189 _menu_item_menu_item_parent 0 
+640 189 _menu_item_object_id 189 
+641 189 _menu_item_object custom 
+642 189 _menu_item_target  
+643 189 _menu_item_classes a:1:{i:0;s:0:"";} 
+644 189 _menu_item_xfn  
+645 189 _menu_item_url  
+647 190 _edit_last 1 
+648 190 _edit_lock 1330175647:1 
+649 191 _wp_attached_file 2012/02/silver-pendant-with-copper-maple-leaf.jpg 
+650 191 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:49:"2012/02/silver-pendant-with-copper-maple-leaf.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:49:"silver-pendant-with-copper-maple-leaf-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:49:"silver-pendant-with-copper-maple-leaf-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:50:"silver-pendant-with-copper-maple-leaf-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"5";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1326381828";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0666666666667";s:5:"title";s:0:"";}} 
+651 192 _wp_attached_file 2012/02/silver-copper-pendant-abstract-shape.jpg 
+652 192 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:48:"2012/02/silver-copper-pendant-abstract-shape.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:48:"silver-copper-pendant-abstract-shape-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:48:"silver-copper-pendant-abstract-shape-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:49:"silver-copper-pendant-abstract-shape-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"5";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1326381466";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:4:"0.05";s:5:"title";s:0:"";}} 
+653 193 _wp_attached_file 2012/02/silver-half-sphere-pendant-with-white-pearls.jpg 
+654 193 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:56:"2012/02/silver-half-sphere-pendant-with-white-pearls.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:56:"silver-half-sphere-pendant-with-white-pearls-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:56:"silver-half-sphere-pendant-with-white-pearls-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:57:"silver-half-sphere-pendant-with-white-pearls-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"5";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1326380285";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:4:"0.05";s:5:"title";s:0:"";}} 
+655 194 _wp_attached_file 2012/02/Handmade-Folded-Rectangles-Copper-Earrings-with-Blue-Oxidation.jpg 
+656 190 _thumbnail_id 191 
+657 194 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:74:"2012/02/Handmade-Folded-Rectangles-Copper-Earrings-with-Blue-Oxidation.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:74:"Handmade-Folded-Rectangles-Copper-Earrings-with-Blue-Oxidation-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:74:"Handmade-Folded-Rectangles-Copper-Earrings-with-Blue-Oxidation-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:75:"Handmade-Folded-Rectangles-Copper-Earrings-with-Blue-Oxidation-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"5";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1329304288";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0666666666667";s:5:"title";s:0:"";}} 
+658 190 slide_link_to URL 
+659 195 _edit_last 1 
+660 195 _edit_lock 1330175624:1 
+661 195 _thumbnail_id 192 
+662 195 slide_link_to URL 
+663 195 gallery_link_url http://www.etsy.com/listing/92582249/silver-pendant-with-abstract-copper 
+664 190 gallery_link_url http://www.etsy.com/listing/92582046/silver-pendant-with-copper-maple-leaf 
+665 196 _thumbnail_id 193 
+666 196 _edit_last 1 
+667 196 slide_link_to URL 
+668 196 gallery_link_url http://www.etsy.com/listing/92582595/silver-half-sphere-pendant-with-pink 
+669 196 _edit_lock 1330175690:1 
+670 197 _thumbnail_id 194 
+671 197 _edit_last 1 
+672 197 slide_link_to URL 
+673 197 gallery_link_url http://www.etsy.com/listing/93051927/handmade-folded-rectangles-copper 
+674 197 _edit_lock 1330175733:1 
+675 199 _wp_attached_file 2012/02/Handmade-Elephant-Copper-Earrings-with-Blue-Oxidation.jpg 
+676 199 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:65:"2012/02/Handmade-Elephant-Copper-Earrings-with-Blue-Oxidation.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:65:"Handmade-Elephant-Copper-Earrings-with-Blue-Oxidation-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:65:"Handmade-Elephant-Copper-Earrings-with-Blue-Oxidation-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:66:"Handmade-Elephant-Copper-Earrings-with-Blue-Oxidation-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"5";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1329304062";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0666666666667";s:5:"title";s:0:"";}} 
+677 198 _thumbnail_id 199 
+678 198 _edit_last 1 
+679 198 _edit_lock 1346590551:1 
+680 198 slide_link_to URL 
+681 198 gallery_link_url http://www.etsy.com/listing/93052157/handmade-elephant-copper-earrings-with 
+682 201 _edit_last 1 
+683 201 _edit_lock 1346591025:1 
+684 202 _wp_attached_file 2012/09/Oxidized-Silver-Earrings-with-Vintage-Motifs.jpg 
+685 202 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:56:"2012/09/Oxidized-Silver-Earrings-with-Vintage-Motifs.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:56:"Oxidized-Silver-Earrings-with-Vintage-Motifs-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:56:"Oxidized-Silver-Earrings-with-Vintage-Motifs-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:57:"Oxidized-Silver-Earrings-with-Vintage-Motifs-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:2:"18";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1344889734";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"1";s:5:"title";s:0:"";}} 
+686 203 _wp_attached_file 2012/09/Silver-Earrings-with-Vintage-Motifs.jpg 
+687 203 _wp_attachment_metadata a:6:{s:5:"width";s:4:"3008";s:6:"height";s:4:"2000";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:47:"2012/09/Silver-Earrings-with-Vintage-Motifs.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:47:"Silver-Earrings-with-Vintage-Motifs-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:47:"Silver-Earrings-with-Vintage-Motifs-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:48:"Silver-Earrings-with-Vintage-Motifs-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:2:"14";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1344890542";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:15:"0.0769230769231";s:5:"title";s:0:"";}} 
+688 204 _wp_attached_file 2012/09/Silver-Ring-with-Green-Pink-Beads-Crystals-and-White-Pearls.jpg 
+689 204 _wp_attachment_metadata a:6:{s:5:"width";s:4:"1628";s:6:"height";s:4:"1336";s:14:"hwstring_small";s:23:"height='96' width='116'";s:4:"file";s:71:"2012/09/Silver-Ring-with-Green-Pink-Beads-Crystals-and-White-Pearls.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:71:"Silver-Ring-with-Green-Pink-Beads-Crystals-and-White-Pearls-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:71:"Silver-Ring-with-Green-Pink-Beads-Crystals-and-White-Pearls-300x246.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"246";}s:5:"large";a:3:{s:4:"file";s:72:"Silver-Ring-with-Green-Pink-Beads-Crystals-and-White-Pearls-1024x840.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"840";}}s:10:"image_meta";a:10:{s:8:"aperture";s:2:"14";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D70s";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1344890890";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"105";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:14:"0.333333333333";s:5:"title";s:0:"";}} 
+690 201 _thumbnail_id 204 
+691 201 slide_link_to URL 
+692 205 _thumbnail_id 203 
+693 205 _edit_last 1 
+694 205 _edit_lock 1346591009:1 
+695 205 slide_link_to URL 
+696 206 _thumbnail_id 202 
+697 206 _edit_last 1 
+698 206 slide_link_to URL 
+699 206 _edit_lock 1346590965:1 
+700 206 gallery_link_url https://www.etsy.com/listing/106799656/oxidized-silver-earrings-with-vintage 
+701 205 gallery_link_url https://www.etsy.com/listing/106800652/silver-earrings-with-vintage-motifs 
+702 201 gallery_link_url https://www.etsy.com/listing/106801305/silver-ring-with-green-pink-beads 
+
+SELECT * from wp_posts
+2 1 5/25/2011 7:58:08 PM 5/25/2011 7:58:08 PM  Tout les bijoux  draft open closed  sample-page   6/23/2011 4:50:12 AM 6/23/2011 4:50:12 AM  0 http://www.bragawebpro.com/bikajewels/?page_id=2 0 page  0 
+11 1 6/23/2011 4:04:49 AM 6/23/2011 4:04:49 AM  logo  inherit open open  logo   6/23/2011 4:04:49 AM 6/23/2011 4:04:49 AM  0 http://www.bragawebpro.com/bikajewels/wp-content/uploads/2011/06/logo.png 0 attachment image/png 0 
+12 1 6/23/2011 4:14:29 AM 6/23/2011 4:14:29 AM  logo1  inherit open open  logo-2   6/23/2011 4:14:29 AM 6/23/2011 4:14:29 AM  0 http://www.bragawebpro.com/bikajewels/wp-content/uploads/2011/06/logo1.png 0 attachment image/png 0 
+13 1 6/23/2011 4:27:25 AM 6/23/2011 4:27:25 AM  main-back  inherit open open  main-back   6/23/2011 4:27:25 AM 6/23/2011 4:27:25 AM  0 http://www.bragawebpro.com/bikajewels/wp-content/uploads/2011/06/main-back.png 0 attachment image/png 0 
+14 1 8/20/2011 4:47:20 AM 8/20/2011 4:47:20 AM Approx. size : 1" x 1" Handmade Copper earrings with blue oxidation  publish closed closed  copper-earrings-blue-oxidation   11/8/2011 6:50:44 PM 11/8/2011 6:50:44 PM  0 http://www.bragawebpro.com/bikajewels/?post_type=slides&#038;p=14 0 slides  0 
+76 1 7/31/2011 7:52:42 PM 7/31/2011 7:52:42 PM  Silver pendant with egg-shaped zirconia  publish closed closed  silver-pendant-with-egg-shaped-zirconia   11/8/2011 6:51:19 PM 11/8/2011 6:51:19 PM  0 http://bikajewels.com/?post_type=slides&#038;p=76 0 slides  0 
+4 1 6/23/2011 3:43:48 AM 6/23/2011 3:43:48 AM Approx. size :1" x 0.75" Handmade silver leaf-shaped earrings  publish closed closed  silver-leaf-earrings   11/8/2011 6:52:03 PM 11/8/2011 6:52:03 PM  0 http://www.bragawebpro.com/bikajewels/?post_type=slides&#038;p=4 0 slides  0 
+166 1 6/30/2011 12:47:52 AM 6/30/2011 12:47:52 AM <!--:en-->For several years, Bika has been creating jewelry for all occasions. With studies in jewelry and professional experience, she offers something special: <em>Bika Jewels</em>, unique creations, handmade by a passionate artist.<!--:--><!--:fr-->Depuis plusieurs années, Bika crées des bijoux pour toutes les occasions. Avec une formation en joaillerie et de l’expérience professionnel, elle vous offre quelque chose de spécial : <em>Bika Jewels</em>, des créations unique, faites à la main, par une artiste passionnée.<!--:--> <!--:en-->About<!--:--><!--:fr-->À propos<!--:-->  inherit open open  67-revision-3   6/30/2011 12:47:52 AM 6/30/2011 12:47:52 AM  67 http://bikajewels.com/uncategorized/67-revision-3/ 0 revision  0 
+5 1 6/23/2011 3:40:41 AM 6/23/2011 3:40:41 AM "Leaf" earings - boucles d'oreilles "Feuilles" "Leaf" earings - boucles d'oreilles "Feuilles" "Leaf" earings - boucles d'oreilles "Feuilles" inherit open open  feuilles-2   6/23/2011 3:40:41 AM 6/23/2011 3:40:41 AM  4 http://www.bragawebpro.com/bikajewels/wp-content/uploads/2011/06/feuilles.png 0 attachment image/png 0 
+6 1 6/23/2011 3:45:13 AM 6/23/2011 3:45:13 AM This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin' caught in the rain.)</blockquote>
+...or something like this:
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickies to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+As a new WordPress user, you should go to <a href="http://www.bragawebpro.com/bikajewels/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun! Sample Page  inherit open open  2-autosave   6/23/2011 3:45:13 AM 6/23/2011 3:45:13 AM  2 http://www.bragawebpro.com/bikajewels/?p=6 0 revision  0 
+7 1 5/25/2011 7:58:08 PM 5/25/2011 7:58:08 PM This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
+
+...or something like this:
+
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickies to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+
+As a new WordPress user, you should go to <a href="http://www.bragawebpro.com/bikajewels/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun! Sample Page  inherit open open  2-revision   5/25/2011 7:58:08 PM 5/25/2011 7:58:08 PM  2 http://www.bragawebpro.com/bikajewels/?p=7 0 revision  0 
+8 1 6/23/2011 3:45:38 AM 6/23/2011 3:45:38 AM This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin' caught in the rain.)</blockquote>
+...or something like this:
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickies to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+As a new WordPress user, you should go to <a href="http://www.bragawebpro.com/bikajewels/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun! Tout les bijoux  inherit open open  2-revision-2   6/23/2011 3:45:38 AM 6/23/2011 3:45:38 AM  2 http://www.bragawebpro.com/bikajewels/?p=8 0 revision  0 
+15 1 6/25/2011 4:35:02 PM 6/25/2011 4:35:02 PM Dimensions : 2.2 cm x 2.2 cm
+
+Prix : 40 $ Boucles d'oreilles en cuivre  inherit open open  14-autosave   6/25/2011 4:35:02 PM 6/25/2011 4:35:02 PM  14 http://www.bragawebpro.com/bikajewels/?p=15 0 revision  0 
+52 1 6/25/2011 4:31:18 PM 6/25/2011 4:31:18 PM Boucles d'oreilles en argent Boucles d'oreilles en argent Boucles d'oreilles en argent inherit open open  boucle-oreille-argent-feuille-2   6/25/2011 4:31:18 PM 6/25/2011 4:31:18 PM  4 http://bikajewels.com/wp-content/uploads/2011/06/boucle-oreille-argent-feuille1.jpg 0 attachment image/jpeg 0 
+16 1 6/23/2011 3:45:43 AM 6/23/2011 3:45:43 AM  Tout les bijoux  inherit open open  2-revision-3   6/23/2011 3:45:43 AM 6/23/2011 3:45:43 AM  2 http://www.bragawebpro.com/bikajewels/?p=16 0 revision  0 
+77 1 7/31/2011 8:36:15 PM 7/31/2011 8:36:15 PM Approximate pendant size :1″ x 0.75″ Handmade Silver Leaf-shaped Pendant  publish closed closed  silver-leaf-pendant   11/8/2011 6:50:55 PM 11/8/2011 6:50:55 PM  0 http://bikajewels.com/?post_type=slides&#038;p=77 0 slides  0 
+78 1 7/31/2011 8:31:16 PM 7/31/2011 8:31:16 PM  pendentif-argent-feuille  inherit open open  pendentif-argent-feuille   7/31/2011 8:31:16 PM 7/31/2011 8:31:16 PM  77 http://bikajewels.com/wp-content/uploads/2011/07/pendentif-argent-feuille.jpg 0 attachment image/jpeg 0 
+75 1 7/31/2011 7:49:53 PM 7/31/2011 7:49:53 PM Silver pendant with egg-shaped zirconia Silver pendant with egg-shaped zirconia Silver pendant with egg-shaped zirconia inherit open open  pendentif-crystal-oeuf   7/31/2011 7:49:53 PM 7/31/2011 7:49:53 PM  0 http://bikajewels.com/wp-content/uploads/2011/07/pendentif-crystal-oeuf.jpg 0 attachment image/jpeg 0 
+50 1 6/25/2011 3:55:58 PM 6/25/2011 3:55:58 PM Boucles d'oreilles en cuivre Boucles d'oreilles en cuivre Boucles d'oreilles en cuivre inherit open open  boucle-oreille-cuivre   6/25/2011 3:55:58 PM 6/25/2011 3:55:58 PM  0 http://bikajewels.com/wp-content/uploads/2011/06/boucle-oreille-cuivre.jpg 0 attachment image/jpeg 0 
+153 1 10/27/2011 12:37:55 AM 10/27/2011 12:37:55 AM Approx. size : 3/4 " Green Starfish Crystal Silver Pendant  publish closed closed  green-starfish-crystal-silver-pendant   11/8/2011 6:17:28 PM 11/8/2011 6:17:28 PM  0 http://bikajewels.com/?post_type=slides&#038;p=153 0 slides  0 
+41 1 6/24/2011 2:36:25 PM 6/24/2011 2:36:25 PM  Home  publish open open  accueil-2   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=41 1 nav_menu_item  0 
+42 1 6/30/2011 12:05:56 AM 6/30/2011 12:05:56 AM <!--:en-->Approx. size :1" x 0.75"<!--:--><!--:fr-->Taille : 2.5 cm x 1.5 cm<!--:--> <!--:fr-->Boucles d'oreilles "feuilles" en argent<!--:-->  inherit open open  4-autosave   6/30/2011 12:05:56 AM 6/30/2011 12:05:56 AM  4 http://bikajewels.com/2011/06/4-autosave/ 0 revision  0 
+54 1 6/25/2011 5:17:14 PM 6/25/2011 5:17:14 PM Petit pendentif en argent Petit pendentif en argent Petit pendentif en argent inherit open open  pendentif-petit-feuille   6/25/2011 5:17:14 PM 6/25/2011 5:17:14 PM  0 http://bikajewels.com/wp-content/uploads/2011/06/pendentif-petit-feuille.jpg 0 attachment image/jpeg 0 
+44 1 6/25/2011 12:20:14 PM 6/25/2011 12:20:14 PM [si-contact-form form='1'] Contact  publish open open  contact   6/25/2011 12:20:14 PM 6/25/2011 12:20:14 PM  0 http://bikajewels.com/?page_id=44 0 page  0 
+45 1 6/25/2011 12:14:08 PM 6/25/2011 12:14:08 PM  Contact  inherit open open  44-revision   6/25/2011 12:14:08 PM 6/25/2011 12:14:08 PM  44 http://bikajewels.com/uncategorized/44-revision/ 0 revision  0 
+48 1 6/25/2011 12:21:11 PM 6/25/2011 12:21:11 PM [si-contact-form form='1'] Contact us  publish open open  48   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=48 8 nav_menu_item  0 
+55 1 6/28/2011 1:14:15 AM 6/28/2011 1:14:15 AM Approx. size : 1.5" x 0.5" Handmade Silver Earrings with Cubic Zirconia  publish closed closed  silver-earrings-with-cubic-zirconia   11/11/2011 4:52:17 AM 11/11/2011 4:52:17 AM  0 http://bikajewels.com/?post_type=slides&#038;p=55 0 slides  0 
+56 1 6/28/2011 1:12:59 AM 6/28/2011 1:12:59 AM Boucle d'oreille en argent avec cubiques Boucle d'oreille en argent avec cubiques Boucle d'oreille en argent avec cubiques inherit open open  dsc_0100   6/28/2011 1:12:59 AM 6/28/2011 1:12:59 AM  55 http://bikajewels.com/wp-content/uploads/2011/06/DSC_0100.jpg 0 attachment image/jpeg 0 
+57 1 6/29/2011 11:35:06 PM 6/29/2011 11:35:06 PM <!--:en-->Taille : 3 cm x 1.5 cm
+
+Prix : 50 $<!--:--><!--:fr-->Taille : 3 cm x 1.5 cm
+
+Prix : 50 $<!--:--> <!--:en-->Silver earrings with cubic zirconia<!--:--><!--:fr-->Boucle d'oreille en argent avec cubiques<!--:-->  inherit open open  55-autosave   6/29/2011 11:35:06 PM 6/29/2011 11:35:06 PM  55 http://bikajewels.com/uncategorized/55-autosave/ 0 revision  0 
+58 1 6/28/2011 2:00:39 AM 6/28/2011 2:00:39 AM Approx. size : 1.5" x 1.5" Handmade Silver Flower-shaped Pendant  publish closed closed  silver-flower-pendant   11/8/2011 6:51:33 PM 11/8/2011 6:51:33 PM  0 http://bikajewels.com/?post_type=slides&#038;p=58 0 slides  0 
+67 1 6/30/2011 12:26:18 AM 6/30/2011 12:26:18 AM For several years, Bika has been creating jewelry for all occasions. With studies in jewelry and professional experience, she offers something special: <em>Bika Jewels</em>, unique creations, handmade by a passionate artist. About  publish open open  a-propos   11/8/2011 9:56:43 PM 11/8/2011 9:56:43 PM  0 http://bikajewels.com/?page_id=67 0 page  0 
+167 1 8/25/2011 7:06:03 AM 8/25/2011 7:06:03 AM <!--:en-->You want to buy ? You have questions ? Contact us at <a title="[GMCP] Compose a new mail to info@bikajewels.com" rel="noreferrer" href="mailto:info@bikajewels.com">info@bikajewels.com</a> or <a title="Contact us" href="/contact/">send us a message</a><!--:--><!--:fr-->Vous voulez acheter ? Vous avez des questions ? Communiquez avec nous à <a title="[GMCP] Compose a new mail to info@bikajewels.com" rel="noreferrer" href="mailto:info@bikajewels.com">info@bikajewels.com</a> ou <a href="/contact/">envoyez-nous un message</a>.<!--:--> <!--:en-->Contact us<!--:--><!--:fr-->Contactez-vous<!--:-->  inherit open open  69-revision-3   8/25/2011 7:06:03 AM 8/25/2011 7:06:03 AM  69 http://bikajewels.com/uncategorized/69-revision-3/ 0 revision  0 
+61 1 6/28/2011 5:36:57 AM 6/28/2011 5:36:57 AM Boucles d'oreilles en argent Boucles d'oreilles en argent Boucles d'oreilles en argent inherit open open  boucle-oreille-argent-feuille   6/28/2011 5:36:57 AM 6/28/2011 5:36:57 AM  4 http://bikajewels.com/wp-content/uploads/2011/06/boucle-oreille-argent-feuille.jpg 0 attachment image/jpeg 0 
+63 1 6/29/2011 11:31:31 PM 6/29/2011 11:31:31 PM <!--:en-->Approx. size : 3 cm x 3 cm<!--:--><!--:fr-->Taille approx. : 3 cm x 3 cm<!--:--> <!--:en-->Silver "flower" pendant<!--:--><!--:fr-->Pendentif "fleur" en argent<!--:-->  inherit open open  58-autosave   6/29/2011 11:31:31 PM 6/29/2011 11:31:31 PM  58 http://bikajewels.com/uncategorized/58-autosave/ 0 revision  0 
+64 1 6/29/2011 5:06:06 AM 6/29/2011 5:06:06 AM Pendentif "fleur" en argent Pendentif "fleur" en argent Pendentif "fleur" en argent inherit open open  pendentif-fleur-argent-2   6/29/2011 5:06:06 AM 6/29/2011 5:06:06 AM  58 http://bikajewels.com/wp-content/uploads/2011/06/pendentif-fleur-argent1.jpg 0 attachment image/jpeg 0 
+68 1 6/30/2011 12:25:24 AM 6/30/2011 12:25:24 AM <!--:en-->For several years, Bika has been cv jewelry for all occasions. With a background in jewelry and professional experience, it offers something special: Jewels Bika, creations unique,handmade by a passionate artist.<!--:--><!--:fr-->Depuis plusieurs années, Bika crées des bijoux pour toutes les occasions. Avec une formation en joaillerie et de l’expérience professionnel, elle vous offre quelque chose de spécial : <em>Bika Jewels</em>, des créations unique, faites à la main, par une artiste passionnée.<!--:--> <!--:en-->À propos<!--:--><!--:fr-->About<!--:-->  inherit open open  67-revision   6/30/2011 12:25:24 AM 6/30/2011 12:25:24 AM  67 http://bikajewels.com/uncategorized/67-revision/ 0 revision  0 
+69 1 6/30/2011 12:40:23 AM 6/30/2011 12:40:23 AM You want to buy ? You have questions ? Contact us at <a title="[GMCP] Compose a new mail to info@bikajewels.com" rel="noreferrer" href="mailto:info@bikajewels.com">info@bikajewels.com</a> or <a title="Contact us" href="/contact/">send us a message</a> Contact us  publish open open  contact-us   11/8/2011 9:57:05 PM 11/8/2011 9:57:05 PM  0 http://bikajewels.com/?page_id=69 0 page  0 
+168 1 9/12/2011 10:04:09 PM 9/12/2011 10:04:09 PM  <!--:en-->FAQ<!--:--><!--:fr-->FAQ<!--:-->  inherit open open  137-revision   9/12/2011 10:04:09 PM 9/12/2011 10:04:09 PM  137 http://bikajewels.com/uncategorized/137-revision/ 0 revision  0 
+70 1 6/30/2011 12:39:45 AM 6/30/2011 12:39:45 AM  Auto Draft  inherit open open  69-revision   6/30/2011 12:39:45 AM 6/30/2011 12:39:45 AM  69 http://bikajewels.com/uncategorized/69-revision/ 0 revision  0 
+71 1 6/30/2011 12:26:18 AM 6/30/2011 12:26:18 AM <!--:en-->For several years, Bika has been creating jewelry for all occasions. With studies in jewelry and professional experience, she offers something special: <em>Bika Jewels</em>, unique creations, handmade by a passionate artist.<!--:--><!--:fr-->Depuis plusieurs années, Bika crées des bijoux pour toutes les occasions. Avec une formation en joaillerie et de l’expérience professionnel, elle vous offre quelque chose de spécial : <em>Bika Jewels</em>, des créations unique, faites à la main, par une artiste passionnée.<!--:--> <!--:en-->À propos<!--:--><!--:fr-->About<!--:-->  inherit open open  67-revision-2   6/30/2011 12:26:18 AM 6/30/2011 12:26:18 AM  67 http://bikajewels.com/uncategorized/67-revision-2/ 0 revision  0 
+74 1 6/30/2011 7:23:14 PM 6/30/2011 7:23:14 PM <!--:en-->[si-contact-form form='1']<!--:--><!--:fr-->[si-contact-form form='1']<!--:--> Contact  inherit open open  44-autosave   6/30/2011 7:23:14 PM 6/30/2011 7:23:14 PM  44 http://bikajewels.com/uncategorized/44-autosave/ 0 revision  0 
+128 1 9/11/2011 9:13:24 PM 9/11/2011 9:13:24 PM Size : 6 <sup>3/4</sup> Handmade Silver Ring with Silver and Brass Flower Design  publish closed closed  silver-ring-with-silver-and-brass-flower-design   11/8/2011 6:41:47 PM 11/8/2011 6:41:47 PM  0 http://bikajewels.com/?post_type=slides&#038;p=128 0 slides  0 
+88 1 8/20/2011 6:07:23 AM 8/20/2011 6:07:23 AM <!--:en-->alo<!--:--><!--:fr-->alo<!--:--> <!--:en-->Test<!--:--><!--:fr-->Test<!--:-->  draft open open  test   8/25/2011 7:01:28 AM 8/25/2011 7:01:28 AM  0 http://bikajewels.com/?p=88 0 post  0 
+89 1 8/20/2011 6:07:08 AM 8/20/2011 6:07:08 AM  Auto Draft  inherit open open  88-revision   8/20/2011 6:07:08 AM 8/20/2011 6:07:08 AM  88 http://bikajewels.com/uncategorized/88-revision/ 0 revision  0 
+90 1 8/20/2011 6:07:23 AM 8/20/2011 6:07:23 AM <!--:en-->alo<!--:--><!--:fr-->alo<!--:--> <!--:en-->Test<!--:--><!--:fr-->Test<!--:-->  inherit open open  88-revision-2   8/20/2011 6:07:23 AM 8/20/2011 6:07:23 AM  88 http://bikajewels.com/uncategorized/88-revision-2/ 0 revision  0 
+91 1 8/20/2011 6:07:36 AM 8/20/2011 6:07:36 AM <!--:en-->alo<!--:--><!--:fr-->alo<!--:--> <!--:en-->Test<!--:--><!--:fr-->Test<!--:-->  inherit open open  88-revision-3   8/20/2011 6:07:36 AM 8/20/2011 6:07:36 AM  88 http://bikajewels.com/uncategorized/88-revision-3/ 0 revision  0 
+98 1 8/20/2011 6:08:43 AM 8/20/2011 6:08:43 AM <!--:en-->alo<!--:--><!--:fr-->alo<!--:--> <!--:en-->Test<!--:--><!--:fr-->Test<!--:-->  inherit open open  88-revision-4   8/20/2011 6:08:43 AM 8/20/2011 6:08:43 AM  88 http://bikajewels.com/uncategorized/88-revision-4/ 0 revision  0 
+99 1 8/20/2011 6:17:54 AM 8/20/2011 6:17:54 AM <!--:en-->alo<!--:--><!--:fr-->alo<!--:--> <!--:en-->Test<!--:--><!--:fr-->Test<!--:-->  inherit open open  88-revision-5   8/20/2011 6:17:54 AM 8/20/2011 6:17:54 AM  88 http://bikajewels.com/uncategorized/88-revision-5/ 0 revision  0 
+100 1 8/25/2011 7:05:15 AM 8/25/2011 7:05:15 AM <!--:en-->You want to buy ? You have questions ? Contact us at <a title="[GMCP] Compose a new mail to info@bikajewels.com" rel="noreferrer" href="mailto:info@bikajewels.com">info@bikajewels.com</a> or <a title="Contact us" href="/contact/">send us a message</a><!--:--><!--:fr-->Vous voulez acheter ? Vous avez des questions ? Communiquez avec nous à <a title="[GMCP] Compose a new mail to info@bikajewels.com" rel="noreferrer" href="mailto:info@bikajewels.com">info@bikajewels.com</a><!--:--> <!--:en-->Contact us<!--:--><!--:fr-->Contactez-vous<!--:-->  inherit open open  69-autosave   8/25/2011 7:05:15 AM 8/25/2011 7:05:15 AM  69 http://bikajewels.com/uncategorized/69-autosave/ 0 revision  0 
+101 1 6/30/2011 12:40:23 AM 6/30/2011 12:40:23 AM <!--:en-->You want to buy ? You have questions ? Contact us at <a title="[GMCP] Compose a new mail to info@bikajewels.com" rel="noreferrer" href="mailto:info@bikajewels.com">info@bikajewels.com</a><!--:--><!--:fr-->Vous voulez acheter ? Vous avez des questions ? Communiquez avec nous à <a title="[GMCP] Compose a new mail to info@bikajewels.com" rel="noreferrer" href="mailto:info@bikajewels.com">info@bikajewels.com</a><!--:--> <!--:en-->Contact us<!--:--><!--:fr-->Contactez-vous<!--:-->  inherit open open  69-revision-2   6/30/2011 12:40:23 AM 6/30/2011 12:40:23 AM  69 http://bikajewels.com/uncategorized/69-revision-2/ 0 revision  0 
+104 1 8/30/2011 3:51:16 AM 8/30/2011 3:51:16 AM Approx. pendant size : 1 in. x 1 in. Silver and glass heart pendant  publish closed closed  silver-and-glass-heart-pendant   11/8/2011 6:48:50 PM 11/8/2011 6:48:50 PM  0 http://bikajewels.com/?post_type=slides&#038;p=104 0 slides  0 
+165 1 11/8/2011 6:48:51 PM 11/8/2011 6:48:51 PM Approx. pendant size : 1 in. x 1 in. Silver and glass heart pendant  inherit open open  104-autosave   11/8/2011 6:48:51 PM 11/8/2011 6:48:51 PM  104 http://bikajewels.com/uncategorized/104-autosave/ 0 revision  0 
+105 1 8/30/2011 3:46:31 AM 8/30/2011 3:46:31 AM  Silver and glass heart pendant  inherit open open  silver-zirconia-heart-pendant   8/30/2011 3:46:31 AM 8/30/2011 3:46:31 AM  104 http://bikajewels.com/wp-content/uploads/2011/08/silver-zirconia-heart-pendant.jpg 0 attachment image/jpeg 0 
+106 1 8/30/2011 4:22:17 AM 8/30/2011 4:22:17 AM Sterling silver
+
+Indigo swarovski crystal heart, 17 mm Silver pendant with indigo swarovski crystal heart  publish closed closed  silver-pendant-indigo-swarovski-heart   11/8/2011 6:48:38 PM 11/8/2011 6:48:38 PM  0 http://bikajewels.com/?post_type=slides&#038;p=106 0 slides  0 
+107 1 8/30/2011 4:16:32 AM 8/30/2011 4:16:32 AM  swarovski-indigo-heart-silver-pendant  inherit open open  swarovski-indigo-heart-silver-pendant   8/30/2011 4:16:32 AM 8/30/2011 4:16:32 AM  106 http://bikajewels.com/wp-content/uploads/2011/08/swarovski-indigo-heart-silver-pendant.jpg 0 attachment image/jpeg 0 
+108 1 11/8/2011 6:45:05 PM 11/8/2011 6:45:05 PM  Silver pendant with red swarovski heart  publish closed closed  silver-pendant-with-red-swarovski-heart   11/11/2011 4:55:10 AM 11/11/2011 4:55:10 AM  0 http://bikajewels.com/?post_type=slides&#038;p=108 0 slides  0 
+109 1 8/30/2011 4:23:49 AM 8/30/2011 4:23:49 AM <!--:en-->Sterling silver
+
+Indigo swarovski crystal heart, 17 mm<!--:--><!--:fr--><div>
+
+Argent sterling
+
+Coeur indigo swarovski, 17 mm
+
+</div><!--:--> <!--:en-->Silver pendant with indigo swarovski crystal heart<!--:--><!--:fr-->Pendentif en argent avec coeur en cristal swarovski indigo<!--:-->  inherit open open  106-autosave   8/30/2011 4:23:49 AM 8/30/2011 4:23:49 AM  106 http://bikajewels.com/uncategorized/106-autosave/ 0 revision  0 
+110 1 8/30/2011 4:27:48 AM 8/30/2011 4:27:48 AM <div>
+
+Sterling silver
+
+Red swarovski crystal heart, 17 mm
+
+</div>
+ Silver pendant with red swarovski crystal heart  publish closed closed  silver-pendant-with-red-swarovski-crystal-heart   11/8/2011 6:48:27 PM 11/8/2011 6:48:27 PM  0 http://bikajewels.com/?post_type=slides&#038;p=110 0 slides  0 
+111 1 8/30/2011 4:26:22 AM 8/30/2011 4:26:22 AM  swarovski-red-heart-silver-pendant  inherit open open  swarovski-red-heart-silver-pendant   8/30/2011 4:26:22 AM 8/30/2011 4:26:22 AM  110 http://bikajewels.com/wp-content/uploads/2011/08/swarovski-red-heart-silver-pendant.jpg 0 attachment image/jpeg 0 
+112 1 8/30/2011 4:35:28 AM 8/30/2011 4:35:28 AM Approx. size : 1.5 in. x 0.5 in. Silver earrings with red, yellow and glass beads  publish closed closed  silver-earrings-with-red-yellow-and-glass-beads   11/19/2011 4:58:33 PM 11/19/2011 4:58:33 PM  0 http://bikajewels.com/?post_type=slides&#038;p=112 0 slides  0 
+113 1 8/30/2011 4:34:44 AM 8/30/2011 4:34:44 AM  red-yellow-beads-silver-earrings  inherit open open  red-yellow-beads-silver-earrings   8/30/2011 4:34:44 AM 8/30/2011 4:34:44 AM  112 http://bikajewels.com/wp-content/uploads/2011/08/red-yellow-beads-silver-earrings.jpg 0 attachment image/jpeg 0 
+129 1 9/11/2011 8:26:24 PM 9/11/2011 8:26:24 PM  silver-ring-with-silver-and-brass-flower-design  inherit open open  silver-ring-with-silver-and-brass-flower-design-2   9/11/2011 8:26:24 PM 9/11/2011 8:26:24 PM  128 http://bikajewels.com/wp-content/uploads/2011/09/silver-ring-with-silver-and-brass-flower-design.jpg 0 attachment image/jpeg 0 
+130 1 9/11/2011 8:31:46 PM 9/11/2011 8:31:46 PM Approx. length : 1/2 "
+
+Approx. width: 1/4 " Small Silver Earrings with White Pearl  publish closed closed  small-silver-earrings-with-white-pearl   11/8/2011 6:44:25 PM 11/8/2011 6:44:25 PM  0 http://bikajewels.com/?post_type=slides&#038;p=130 0 slides  0 
+131 1 9/11/2011 8:29:56 PM 9/11/2011 8:29:56 PM  small-silver-earrings-with-white-pearl  inherit open open  small-silver-earrings-with-white-pearl   9/11/2011 8:29:56 PM 9/11/2011 8:29:56 PM  130 http://bikajewels.com/wp-content/uploads/2011/09/small-silver-earrings-with-white-pearl.jpg 0 attachment image/jpeg 0 
+132 1 9/11/2011 8:41:14 PM 9/11/2011 8:41:14 PM Approx. size : 1/2 " Handmade Small Silver Earrings with Heart Design  publish closed closed  small-silver-earrings-with-heart-design   11/8/2011 6:44:12 PM 11/8/2011 6:44:12 PM  0 http://bikajewels.com/?post_type=slides&#038;p=132 0 slides  0 
+133 1 9/11/2011 8:40:26 PM 9/11/2011 8:40:26 PM  handmade-small-silver-earrings-heart-design  inherit open open  small-silver-earrings-heart-design   9/11/2011 8:40:26 PM 9/11/2011 8:40:26 PM  132 http://bikajewels.com/wp-content/uploads/2011/09/small-silver-earrings-heart-design.jpg 0 attachment image/jpeg 0 
+134 1 9/11/2011 8:49:10 PM 9/11/2011 8:49:10 PM - Silver chain
+
+- Carnelian pendant
+
+- Approx. pendant size : 1 "  x  3/4 " Silver and Carnelian Pendant  publish closed closed  silver-and-carnelian-pendant   11/8/2011 6:44:00 PM 11/8/2011 6:44:00 PM  0 http://bikajewels.com/?post_type=slides&#038;p=134 0 slides  0 
+135 1 9/11/2011 8:49:03 PM 9/11/2011 8:49:03 PM  silver-and-carnelian-pendant  inherit open open  silver-and-carnelian-pendant   9/11/2011 8:49:03 PM 9/11/2011 8:49:03 PM  134 http://bikajewels.com/wp-content/uploads/2011/09/silver-and-carnelian-pendant.jpg 0 attachment image/jpeg 0 
+148 1 10/14/2011 12:28:10 AM 10/14/2011 12:28:10 AM Approx. size : 1.5 "  x  0.75 " Handmade Copper Earrings with Blue Oxidation and White Pearls  publish closed closed  handmade-copper-earrings-with-blue-oxidation-and-white-pearls   11/8/2011 6:40:18 PM 11/8/2011 6:40:18 PM  0 http://bikajewels.com/?post_type=slides&#038;p=148 0 slides  0 
+137 1 11/8/2011 9:57:17 PM 1/1/0001 12:00:00 AM  FAQ  draft open open     11/8/2011 9:57:17 PM 11/8/2011 9:57:17 PM  0 http://bikajewels.com/?page_id=137 0 page  0 
+138 1 9/19/2011 6:28:31 AM 9/19/2011 6:28:31 AM Approx. pendant size : 1 "  x  1/2 " Handmade Silver S-shaped Pendant  publish closed closed  handmade-silver-s-shaped-pendant   11/8/2011 6:41:28 PM 11/8/2011 6:41:28 PM  0 http://bikajewels.com/?post_type=slides&#038;p=138 0 slides  0 
+140 1 9/19/2011 6:26:40 AM 9/19/2011 6:26:40 AM  silver-pendant-s-shaped  inherit open open  silver-pendant-s-shaped   9/19/2011 6:26:40 AM 9/19/2011 6:26:40 AM  138 http://bikajewels.com/wp-content/uploads/2011/09/silver-pendant-s-shaped.jpg 0 attachment image/jpeg 0 
+141 1 9/19/2011 6:36:14 AM 9/19/2011 6:36:14 AM Approx. pendant size : 3/4 "  x  3/4 " Handmade Silver Circle Pendant with Spiral and Little Balls  publish closed closed  handmade-silver-circle-pendant-with-spiral-and-little-balls   11/8/2011 6:41:16 PM 11/8/2011 6:41:16 PM  0 http://bikajewels.com/?post_type=slides&#038;p=141 0 slides  0 
+142 1 9/19/2011 6:34:15 AM 9/19/2011 6:34:15 AM  handmade-silver-pendant-circle-spiral-and-balls  inherit open open  handmade-silver-pendant-circle-spiral-and-balls   9/19/2011 6:34:15 AM 9/19/2011 6:34:15 AM  141 http://bikajewels.com/wp-content/uploads/2011/09/handmade-silver-pendant-circle-spiral-and-balls.jpg 0 attachment image/jpeg 0 
+143 1 9/19/2011 6:40:35 AM 9/19/2011 6:40:35 AM Approx. pendant size : 3/4 "  x  3/4 " Handmade Silver Circle Pendant with Waves and Little Balls  publish closed closed  handmade-silver-circle-pendant-with-waves-and-little-balls   11/8/2011 6:40:36 PM 11/8/2011 6:40:36 PM  0 http://bikajewels.com/?post_type=slides&#038;p=143 0 slides  0 
+144 1 9/19/2011 6:38:50 AM 9/19/2011 6:38:50 AM  handmade-silver-pendant-circle-wave-and-balls  inherit open open  handmade-silver-pendant-circle-wave-and-balls   9/19/2011 6:38:50 AM 9/19/2011 6:38:50 AM  143 http://bikajewels.com/wp-content/uploads/2011/09/handmade-silver-pendant-circle-wave-and-balls.jpg 0 attachment image/jpeg 0 
+145 1 9/24/2011 5:29:58 AM 9/24/2011 5:29:58 AM  boucle-oreille-argent-cubic  inherit open open  boucle-oreille-argent-cubic   9/24/2011 5:29:58 AM 9/24/2011 5:29:58 AM  55 http://bikajewels.com/wp-content/uploads/2011/06/boucle-oreille-argent-cubic.jpg 0 attachment image/jpeg 0 
+146 1 10/12/2011 3:49:23 AM 10/12/2011 3:49:23 AM <!--:en-->- Silver chain
+
+- Carnelian pendant
+
+- Approx. pendant size : 1 "  x  3/4 "<!--:--><!--:fr--><div>
+
+Taille approx. du pendentif : 2.5 cm x 1.5 cm
+
+</div><!--:--> <!--:en-->Silver and Carnelian Pendant<!--:--><!--:fr-->Pendentif en argent et cornaline<!--:-->  inherit open open  134-autosave   10/12/2011 3:49:23 AM 10/12/2011 3:49:23 AM  134 http://bikajewels.com/uncategorized/134-autosave/ 0 revision  0 
+147 1 10/12/2011 4:01:09 AM 10/12/2011 4:01:09 AM  silver-leaf-pendant  inherit open open  silver-leaf-pendant-2   10/12/2011 4:01:09 AM 10/12/2011 4:01:09 AM  77 http://bikajewels.com/wp-content/uploads/2011/07/silver-leaf-pendant.jpg 0 attachment image/jpeg 0 
+149 1 10/14/2011 12:27:56 AM 10/14/2011 12:27:56 AM  handmade-copper-earrings-with-blue-oxidation-and-white-pearls  inherit open open  handmade-copper-earrings-with-blue-oxidation-and-white-pearls   10/14/2011 12:27:56 AM 10/14/2011 12:27:56 AM  148 http://bikajewels.com/wp-content/uploads/2011/10/handmade-copper-earrings-with-blue-oxidation-and-white-pearls.jpg 0 attachment image/jpeg 0 
+150 1 10/14/2011 12:30:17 AM 10/14/2011 12:30:17 AM  handmade-copper-earrings-with-blue-oxidation-and-white-pearls  inherit open open  handmade-copper-earrings-with-blue-oxidation-and-white-pearls-2   10/14/2011 12:30:17 AM 10/14/2011 12:30:17 AM  148 http://bikajewels.com/wp-content/uploads/2011/10/handmade-copper-earrings-with-blue-oxidation-and-white-pearls1.jpg 0 attachment image/jpeg 0 
+151 1 10/14/2011 2:09:21 AM 10/14/2011 2:09:21 AM Approx. size : 1.5 "  x  1.5 " Handmade Fish-shaped Copper Earrings with Blue Beads  publish closed closed  handmade-copper-earrings-fish-shaped-with-blue-beads   11/10/2011 4:50:04 AM 11/10/2011 4:50:04 AM  0 http://bikajewels.com/?post_type=slides&#038;p=151 0 slides  0 
+152 1 10/14/2011 2:09:13 AM 10/14/2011 2:09:13 AM  handmade-copper-earrings-fish-shaped-with-blue-beads  inherit open open  handmade-copper-earrings-fish-shaped-with-blue-beads   10/14/2011 2:09:13 AM 10/14/2011 2:09:13 AM  151 http://bikajewels.com/wp-content/uploads/2011/10/handmade-copper-earrings-fish-shaped-with-blue-beads.jpg 0 attachment image/jpeg 0 
+154 1 10/27/2011 12:37:30 AM 10/27/2011 12:37:30 AM  green-starfish-crystal-silver-pendant  inherit open open  green-starfish-crystal-silver-pendant   10/27/2011 12:37:30 AM 10/27/2011 12:37:30 AM  153 http://bikajewels.com/wp-content/uploads/2011/10/green-starfish-crystal-silver-pendant.jpg 0 attachment image/jpeg 0 
+155 1 10/27/2011 12:40:55 AM 10/27/2011 12:40:55 AM Approx. size : 3/4 " Blue Starfish Crystal Silver Pendant  publish closed closed  blue-starfish-crystal-silver-pendant   11/8/2011 6:17:04 PM 11/8/2011 6:17:04 PM  0 http://bikajewels.com/?post_type=slides&#038;p=155 0 slides  0 
+156 1 10/27/2011 12:41:18 AM 10/27/2011 12:41:18 AM  blue-starfish-crystal-silver-pendant  inherit open open  blue-starfish-crystal-silver-pendant-2   10/27/2011 12:41:18 AM 10/27/2011 12:41:18 AM  155 http://bikajewels.com/wp-content/uploads/2011/10/blue-starfish-crystal-silver-pendant.jpg 0 attachment image/jpeg 0 
+157 1 10/27/2011 2:41:37 AM 10/27/2011 2:41:37 AM Approx. size : 1 "  x  0.5 " Yellow Drop Crystal Silver Earrings  publish closed closed  yellow-drop-crystal-silver-earrings   11/8/2011 4:26:34 PM 11/8/2011 4:26:34 PM  0 http://bikajewels.com/?post_type=slides&#038;p=157 0 slides  0 
+190 1 2/25/2012 1:12:40 PM 2/25/2012 1:12:40 PM - Silver chain
+- Approx. pendant size : 0.75 in. x 1 in. Silver Pendant with Copper Maple Leaf  publish closed closed  silver-pendant-with-copper-maple-leaf   2/25/2012 1:14:06 PM 2/25/2012 1:14:06 PM  0 http://bikajewels.com/?post_type=slides&#038;p=190 0 slides  0 
+158 1 10/27/2011 2:40:49 AM 10/27/2011 2:40:49 AM  yellow-drop-crystal-silver-earrings  inherit open open  yellow-drop-crystal-silver-earrings   10/27/2011 2:40:49 AM 10/27/2011 2:40:49 AM  157 http://bikajewels.com/wp-content/uploads/2011/10/yellow-drop-crystal-silver-earrings.jpg 0 attachment image/jpeg 0 
+159 1 10/27/2011 2:43:47 AM 10/27/2011 2:43:47 AM Approx. size : 3/4 " Handmade Orange Hazelnut-shaped Silver Pendant  publish closed closed  handmade-orange-hazelnut-shaped-silver-pendant   11/8/2011 4:26:16 PM 11/8/2011 4:26:16 PM  0 http://bikajewels.com/?post_type=slides&#038;p=159 0 slides  0 
+160 1 10/27/2011 2:43:11 AM 10/27/2011 2:43:11 AM  handmade-hazelnut-silver-pendant  inherit open open  handmade-hazelnut-silver-pendant   10/27/2011 2:43:11 AM 10/27/2011 2:43:11 AM  159 http://bikajewels.com/wp-content/uploads/2011/10/handmade-hazelnut-silver-pendant.jpg 0 attachment image/jpeg 0 
+161 1 11/8/2011 3:15:41 PM 11/8/2011 3:15:41 PM  <img onclick="window.open('http://facebook.com/BikaJewels')" title="BikaJewels on Facebook" style=""   src="/facebook.png" width="42" height="42" /> <img onclick="window.open('https://plus.google.com/105849558452513498889/?prsrc=3')" style="padding:7px"   title="BikaJewels on Google+" src="https://ssl.gstatic.com/images/icons/gplus-32.png" width="32" height="32"/>  <img onclick="window.open('http://www.flickr.com/photos/64586124@N04/sets/72157628101886424/')"   style="padding:5px" title="BikaJewels on Flickr" src="/flick_icon.png" width="35" height="35"/>   publish open open  161   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=161 10 nav_menu_item  0 
+163 1 11/8/2011 3:26:34 PM 11/8/2011 3:26:34 PM  Shop online  publish open open  shop-online   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=163 7 nav_menu_item  0 
+169 1 11/15/2011 1:22:29 AM 11/15/2011 1:22:29 AM - Approx. size : 1"
+- Sterling silver Handmade Copper Disc Earrings with Silver Wire  publish closed closed  handmade-copper-disc-earrings-with-silver-wire   11/19/2011 4:58:27 PM 11/19/2011 4:58:27 PM  0 http://bikajewels.com/?post_type=slides&#038;p=169 0 slides  0 
+170 1 11/15/2011 1:21:38 AM 11/15/2011 1:21:38 AM  handmade-copper-disc-earrings-with-silver-wire  inherit open open  handmade-copper-disc-earrings-with-silver-wire   11/15/2011 1:21:38 AM 11/15/2011 1:21:38 AM  169 http://bikajewels.com/wp-content/uploads/2011/11/handmade-copper-disc-earrings-with-silver-wire.jpg 0 attachment image/jpeg 0 
+171 1 11/15/2011 1:39:01 AM 11/15/2011 1:39:01 AM  handmade-copper-disc-earrings-with-silver-wire  inherit open open  handmade-copper-disc-earrings-with-silver-wire-2   11/15/2011 1:39:01 AM 11/15/2011 1:39:01 AM  169 http://bikajewels.com/wp-content/uploads/2011/11/handmade-copper-disc-earrings-with-silver-wire1.jpg 0 attachment image/jpeg 0 
+172 1 11/15/2011 1:49:59 AM 11/15/2011 1:49:59 AM - Approx. size : 1.25"
+- 1 cubic zirconia + 8 rhinestone Handmade Copper Earrings with Cubic Zirconia  publish closed closed  handmade-copper-earrings-with-cubic-zirconia   11/15/2011 3:58:14 AM 11/15/2011 3:58:14 AM  0 http://bikajewels.com/?post_type=slides&#038;p=172 0 slides  0 
+173 1 11/15/2011 1:46:42 AM 11/15/2011 1:46:42 AM  handmade-copper-earrings-with-cubic-zirconia  inherit open open  handmade-copper-earrings-with-cubic-zirconia   11/15/2011 1:46:42 AM 11/15/2011 1:46:42 AM  172 http://bikajewels.com/wp-content/uploads/2011/11/handmade-copper-earrings-with-cubic-zirconia.jpg 0 attachment image/jpeg 0 
+174 1 11/15/2011 2:12:41 AM 11/15/2011 2:12:41 AM - Handmade
+- Approx. size : 1.5”  x  0.5”
+- Green Swarovski Crystals Handmade Copper Oval Earrings with Blue Oxidation and Green Swarovski Crystals  publish closed closed  handmade-copper-oval-earrings-with-blue-oxidation-and-green-swarovski-crystals   11/26/2011 3:33:46 AM 11/26/2011 3:33:46 AM  0 http://bikajewels.com/?post_type=slides&#038;p=174 0 slides  0 
+175 1 11/15/2011 2:11:45 AM 11/15/2011 2:11:45 AM  handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads  inherit open open  handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads   11/15/2011 2:11:45 AM 11/15/2011 2:11:45 AM  174 http://bikajewels.com/wp-content/uploads/2011/11/handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads.jpg 0 attachment image/jpeg 0 
+176 1 11/15/2011 2:23:17 AM 11/15/2011 2:23:17 AM - Handmade
+- Approx. size : 1”  x  2.5”
+- Interchangeable Handmade Copper Earrings Parrot-shaped with Blue Oxidation  publish closed closed  handmade-copper-earrings-parrot-shaped-with-blue-oxidation   11/15/2011 3:47:05 AM 11/15/2011 3:47:05 AM  0 http://bikajewels.com/?post_type=slides&#038;p=176 0 slides  0 
+177 1 11/15/2011 2:21:46 AM 11/15/2011 2:21:46 AM  Handmade Copper Earrings Parrot-shaped with Blue Oxidation  inherit open open  handmade-copper-earrings-parrot-shaped-with-blue-oxidation   11/15/2011 2:21:46 AM 11/15/2011 2:21:46 AM  176 http://bikajewels.com/wp-content/uploads/2011/11/Handmade-Copper-Earrings-Parrot-shaped-with-Blue-Oxidation.jpg 0 attachment image/jpeg 0 
+178 1 11/15/2011 2:45:56 AM 11/15/2011 2:45:56 AM - Approx. length : 3"
+- Sterling silver
+- Swarovski Crystals Silver Chain Earrings with Swarovski Crystals  publish closed closed  silver-chain-earrings-with-swarovski-crystals   11/15/2011 3:42:29 AM 11/15/2011 3:42:29 AM  0 http://bikajewels.com/?post_type=slides&#038;p=178 0 slides  0 
+179 1 11/15/2011 2:44:13 AM 11/15/2011 2:44:13 AM  Silver Chain Earrings with Transparent Beads  inherit open open  silver-chain-earrings-with-transparent-beads   11/15/2011 2:44:13 AM 11/15/2011 2:44:13 AM  178 http://bikajewels.com/wp-content/uploads/2011/11/Silver-Chain-Earrings-with-Transparent-Beads.jpg 0 attachment image/jpeg 0 
+180 1 11/15/2011 2:56:04 AM 11/15/2011 2:56:04 AM - Approx. length : 3"
+- Sterling silver
+- White pearls
+- Pink Swarovski Crystals Silver Chain Earrings with White Pearls and Pink Swarovski Crystals  publish closed closed  silver-chain-earrings-with-white-pearls-and-pink-swarovski-crystals   11/18/2011 5:28:52 AM 11/18/2011 5:28:52 AM  0 http://bikajewels.com/?post_type=slides&#038;p=180 0 slides  0 
+181 1 11/15/2011 2:54:47 AM 11/15/2011 2:54:47 AM  Silver Chain Earrings with White Pearls and Pink Beads  inherit open open  silver-chain-earrings-with-white-pearls-and-pink-beads   11/15/2011 2:54:47 AM 11/15/2011 2:54:47 AM  180 http://bikajewels.com/wp-content/uploads/2011/11/Silver-Chain-Earrings-with-White-Pearls-and-Pink-Beads.jpg 0 attachment image/jpeg 0 
+182 1 11/15/2011 4:48:18 PM 11/15/2011 4:48:18 PM  handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads  inherit open open  handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads-2   11/15/2011 4:48:18 PM 11/15/2011 4:48:18 PM  169 http://bikajewels.com/wp-content/uploads/2011/11/handmade-copper-oval-earrings-with-blue-oxidation-and-green-beads1.jpg 0 attachment image/jpeg 0 
+183 1 11/15/2011 4:48:47 PM 11/15/2011 4:48:47 PM  handmade-copper-disc-earrings-with-silver-wire  inherit open open  handmade-copper-disc-earrings-with-silver-wire-3   11/15/2011 4:48:47 PM 11/15/2011 4:48:47 PM  169 http://bikajewels.com/wp-content/uploads/2011/11/handmade-copper-disc-earrings-with-silver-wire2.jpg 0 attachment image/jpeg 0 
+184 1 11/19/2011 5:15:41 PM 11/19/2011 5:15:41 PM  Earrings See only earrings publish open open  earrings   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=184 4 nav_menu_item  0 
+185 1 11/19/2011 5:15:41 PM 11/19/2011 5:15:41 PM  Categories  publish open open  categories   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=185 2 nav_menu_item  0 
+186 1 11/19/2011 5:15:41 PM 11/19/2011 5:15:41 PM  Pendants See only pendants publish open open  pendants   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=186 5 nav_menu_item  0 
+187 1 11/19/2011 5:17:01 PM 11/19/2011 5:17:01 PM  Rings See only rings publish open open  rings   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=187 6 nav_menu_item  0 
+188 1 11/19/2011 6:17:56 PM 11/19/2011 6:17:56 PM  All Jewelry  publish open open  all-jewelry   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=188 3 nav_menu_item  0 
+189 1 11/19/2011 6:25:31 PM 11/19/2011 6:25:31 PM  Social  publish open open  social   11/19/2011 6:59:19 PM 11/19/2011 6:59:19 PM  0 http://bikajewels.com/?p=189 9 nav_menu_item  0 
+191 1 2/25/2012 1:11:49 PM 2/25/2012 1:11:49 PM  silver pendant with copper maple leaf  inherit open open  silver-pendant-with-copper-maple-leaf   2/25/2012 1:11:49 PM 2/25/2012 1:11:49 PM  190 http://bikajewels.com/wp-content/uploads/2012/02/silver-pendant-with-copper-maple-leaf.jpg 0 attachment image/jpeg 0 
+192 1 2/25/2012 1:12:01 PM 2/25/2012 1:12:01 PM  silver-copper-pendant-abstract-shape  inherit open open  silver-copper-pendant-abstract-shape   2/25/2012 1:12:01 PM 2/25/2012 1:12:01 PM  190 http://bikajewels.com/wp-content/uploads/2012/02/silver-copper-pendant-abstract-shape.jpg 0 attachment image/jpeg 0 
+193 1 2/25/2012 1:12:11 PM 2/25/2012 1:12:11 PM  silver-half-sphere-pendant-with-white-pearls  inherit open open  silver-half-sphere-pendant-with-white-pearls   2/25/2012 1:12:11 PM 2/25/2012 1:12:11 PM  190 http://bikajewels.com/wp-content/uploads/2012/02/silver-half-sphere-pendant-with-white-pearls.jpg 0 attachment image/jpeg 0 
+194 1 2/25/2012 1:12:25 PM 2/25/2012 1:12:25 PM  Handmade Folded Rectangles Copper Earrings with Blue Oxidation  inherit open open  handmade-folded-rectangles-copper-earrings-with-blue-oxidation   2/25/2012 1:12:25 PM 2/25/2012 1:12:25 PM  190 http://bikajewels.com/wp-content/uploads/2012/02/Handmade-Folded-Rectangles-Copper-Earrings-with-Blue-Oxidation.jpg 0 attachment image/jpeg 0 
+195 1 2/25/2012 1:13:43 PM 2/25/2012 1:13:43 PM - Copper wire
+- Approx. pendant size : 0.75 in. x 0.75 in. Silver Pendant with Abstract Copper Shape  publish closed closed  silver-pendant-with-abstract-copper-shape   2/25/2012 1:13:43 PM 2/25/2012 1:13:43 PM  0 http://bikajewels.com/?post_type=slides&#038;p=195 0 slides  0 
+196 1 2/25/2012 1:14:49 PM 2/25/2012 1:14:49 PM - Silver chain
+- Three pink pearls
+- Hollow half-sphere :
+- Inside : black (oxidized) silver
+- Outside : brushed (like stainless) silver
+- Approx. pendant size : 0.75 in. x 0.75 in. Silver Half Sphere Pendant with Pink Pearls  publish closed closed  silver-half-sphere-pendant-with-pink-pearls   2/25/2012 1:14:49 PM 2/25/2012 1:14:49 PM  0 http://bikajewels.com/?post_type=slides&#038;p=196 0 slides  0 
+197 1 2/25/2012 1:15:33 PM 2/25/2012 1:15:33 PM - Handmade
+- Approx. size : 2” x 0.5” Handmade Folded Rectangles Copper Earrings with Blue Oxidation  publish closed closed  handmade-folded-rectangles-copper-earrings-with-blue-oxidation   2/25/2012 1:15:33 PM 2/25/2012 1:15:33 PM  0 http://bikajewels.com/?post_type=slides&#038;p=197 0 slides  0 
+198 1 2/25/2012 1:16:43 PM 2/25/2012 1:16:43 PM - Handmade
+- 2 Crystals
+- Copper with blue oxidation
+- Approx. size : 1” x 1.5” Handmade Elephant Copper Earrings with Blue Oxidation and Crystals  publish closed closed  handmade-elephant-copper-earrings-with-blue-oxidation-and-crystals   2/25/2012 1:16:43 PM 2/25/2012 1:16:43 PM  0 http://bikajewels.com/?post_type=slides&#038;p=198 0 slides  0 
+199 1 2/25/2012 1:16:14 PM 2/25/2012 1:16:14 PM  Handmade Elephant Copper Earrings with Blue Oxidation  inherit open open  handmade-elephant-copper-earrings-with-blue-oxidation   2/25/2012 1:16:14 PM 2/25/2012 1:16:14 PM  198 http://bikajewels.com/wp-content/uploads/2012/02/Handmade-Elephant-Copper-Earrings-with-Blue-Oxidation.jpg 0 attachment image/jpeg 0 
+200 1 9/2/2012 12:55:38 PM 1/1/0001 12:00:00 AM  Auto Draft  auto-draft open open     9/2/2012 12:55:38 PM 1/1/0001 12:00:00 AM  0 http://bikajewels.com/?p=200 0 post  0 
+201 1 9/2/2012 12:58:55 PM 9/2/2012 12:58:55 PM - Silver
+- Green and pink beads
+- Crystals
+- White pearls
+- Size : 6 Silver Ring with Green Pink Beads, Crystals and White Pearls  publish closed closed  silver-ring-with-green-pink-beads-crystals-and-white-pearls   9/2/2012 1:03:45 PM 9/2/2012 1:03:45 PM  0 http://bikajewels.com/?post_type=slides&#038;p=201 0 slides  0 
+205 1 9/2/2012 1:01:21 PM 9/2/2012 1:01:21 PM - Silver
+- Approx. size : 1.5″ x 0.5″ Silver Earrings with Vintage Motifs  publish closed closed  silver-earrings-with-vintage-motifs   9/2/2012 1:03:28 PM 9/2/2012 1:03:28 PM  0 http://bikajewels.com/?post_type=slides&#038;p=205 0 slides  0 
+202 1 9/2/2012 12:58:03 PM 9/2/2012 12:58:03 PM  Oxidized Silver Earrings with Vintage Motifs  inherit open open  oxidized-silver-earrings-with-vintage-motifs   9/2/2012 12:58:03 PM 9/2/2012 12:58:03 PM  201 http://bikajewels.com/wp-content/uploads/2012/09/Oxidized-Silver-Earrings-with-Vintage-Motifs.jpg 0 attachment image/jpeg 0 
+203 1 9/2/2012 12:58:20 PM 9/2/2012 12:58:20 PM  Silver Earrings with Vintage Motifs  inherit open open  silver-earrings-with-vintage-motifs   9/2/2012 12:58:20 PM 9/2/2012 12:58:20 PM  201 http://bikajewels.com/wp-content/uploads/2012/09/Silver-Earrings-with-Vintage-Motifs.jpg 0 attachment image/jpeg 0 
+204 1 9/2/2012 12:58:26 PM 9/2/2012 12:58:26 PM  Silver Ring with Green Pink Beads, Crystals and White Pearls  inherit open open  silver-ring-with-green-pink-beads-crystals-and-white-pearls   9/2/2012 12:58:26 PM 9/2/2012 12:58:26 PM  201 http://bikajewels.com/wp-content/uploads/2012/09/Silver-Ring-with-Green-Pink-Beads-Crystals-and-White-Pearls.jpg 0 attachment image/jpeg 0 
+206 1 9/2/2012 1:02:16 PM 9/2/2012 1:02:16 PM - Silver
+- Approx. size : 1.5″ x 0.5″ Oxidized Silver Earrings with Vintage Motifs  publish closed closed  oxidized-silver-earrings-with-vintage-motifs   9/2/2012 1:02:44 PM 9/2/2012 1:02:44 PM  0 http://bikajewels.com/?post_type=slides&#038;p=206 0 slides  0 
+
+SELECT count(*) from wp_term_relationships
+19 
+
+SELECT * from wp_term_taxonomy LIMIT 10, 1000
+13 13 category  11 0 
+14 14 nav_menu  0 10 
+15 15 category root category for YAK products 0 0 
+16 16 category default category for YAK products 15 0 
+
+SELECT * from wp_terms
+1 Uncategorized uncategorized 0 
+2 Blogroll blogroll 0 
+3 Nouvelles nouvelles 0 
+7 Boucles d'oreilles boucles-doreilles 0 
+6 Tutoriaux tutoriaux 0 
+8 Colliers colliers 0 
+9 Articles articles 0 
+10 Uncategorized @en uncategorized-en 0 
+11 Posts articles-en 0 
+12 News news 0 
+13 Tutorials tutorials 0 
+14 Menu haut menu-haut 0 
+15 products products 0 
+16 default default 0 
+
+SELECT count(*) from wp_translate_dict
+2 
+
+SELECT * from wp_translate_langs LIMIT 10, 1000
+
+SELECT * from wp_usermeta
+1 1 first_name  
+2 1 last_name  
+3 1 nickname admin 
+4 1 description  
+5 1 rich_editing true 
+6 1 comment_shortcuts false 
+7 1 admin_color fresh 
+8 1 use_ssl 0 
+9 1 show_admin_bar_front true 
+10 1 show_admin_bar_admin false 
+11 1 aim  
+12 1 yim  
+13 1 jabber  
+14 1 wp_capabilities a:2:{s:13:"administrator";s:1:"1";s:9:"translate";s:1:"1";} 
+15 1 wp_user_level 10 
+16 1 wp_dashboard_quick_press_last_post_id 200 
+17 1 wp_user-settings m0=c&m5=o&m1=o&m4=c&m2=c&m7=o&m12=o&m11=o&m10=o&m6=c&imgsize=full&editor=html&m8=o&m9=c 
+18 1 wp_user-settings-time 1321593743 
+19 1 managenav-menuscolumnshidden a:4:{i:0;s:11:"link-target";i:1;s:11:"css-classes";i:2;s:3:"xfn";i:3;s:11:"description";} 
+20 1 metaboxhidden_nav-menus a:5:{i:0;s:8:"add-post";i:1;s:10:"add-slides";i:2;s:14:"add-portfolios";i:3;s:12:"add-post_tag";i:4;s:17:"add-portfoliosets";} 
+21 1 nav_menu_recently_edited 14 
+22 1 closedpostboxes_slides a:0:{} 
+23 1 metaboxhidden_slides a:1:{i:0;s:7:"slugdiv";} 
+24 1 wp_language_pairs a:1:{s:2:"fr";a:1:{s:2:"en";s:1:"1";}} 
+25 1 wp_meta-box-order_dashboard a:2:{i:0;s:0:"";s:4:"side";s:21:"icl_dashboard_widget,";} 
+27 1 plugins_last_view all 
+
+SELECT count(*) from wp_users
+1 

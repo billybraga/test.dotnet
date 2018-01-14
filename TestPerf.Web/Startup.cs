@@ -60,6 +60,10 @@ namespace TestPerf.Web
                 table => "SELECT * from " + table + " LIMIT 10, 1000"
             };
 
+            var result = File.ReadAllBytes(
+                Path.Combine("wwwroot", "result.txt")
+            );
+            
             app.Run(async context =>
             {
                 if (context.Request.Path.Value == "/loaderio-30bba9071922596d96c93b0bba31ded8.txt")
@@ -67,6 +71,12 @@ namespace TestPerf.Web
                     await context.Response.WriteAsync("loaderio-30bba9071922596d96c93b0bba31ded8");
                     return;
                 }
+
+                context.Response.ContentType = "text/plain; charset=utf-8";
+                context.Response.Headers.Add("X-Version", "1.2");
+                await context.Response.Body.WriteAsync(result, 0, result.Length);
+                return;
+                
                 try
                 {
                     var sb = new StringBuilder();
@@ -100,8 +110,6 @@ namespace TestPerf.Web
                         }
                     }
 
-                    context.Response.ContentType = "text/plain; charset=utf-8";
-                    context.Response.Headers.Add("X-Version", "1.1");
                     await context.Response.WriteAsync(sb.ToString());
                 }
                 catch (Exception ex)
