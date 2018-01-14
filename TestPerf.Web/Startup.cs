@@ -10,6 +10,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.ApplicationInsights.AspNetCore.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -43,7 +44,6 @@ namespace TestPerf.Web
 
             app.UseResponseCompression();
             
-            
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
                 .Add(new WebConfigSource() { Path = "web.config", Optional = false, ReloadOnChange = true, })
@@ -62,6 +62,11 @@ namespace TestPerf.Web
 
             app.Run(async context =>
             {
+                if (context.Request.Path.Value == "/loaderio-30bba9071922596d96c93b0bba31ded8.txt")
+                {
+                    await context.Response.WriteAsync("loaderio-30bba9071922596d96c93b0bba31ded8");
+                    return;
+                }
                 try
                 {
                     var sb = new StringBuilder();
