@@ -14,7 +14,6 @@ namespace TestPerf.Web
     {
         public static void Main(string[] args)
         {
-            
             BuildWebHost(args).Run();
         }
 

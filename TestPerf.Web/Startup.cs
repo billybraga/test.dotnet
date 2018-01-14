@@ -43,16 +43,23 @@ namespace TestPerf.Web
 
             app.UseResponseCompression();
             
-            var connectionString = "server=127.0.0.1;uid=bikajewels;pwd=bikajewels;database=bikajewels;Convert Zero Datetime=True";
             
-            Func<string, string>[] handlers = new Func<string, string>[]
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .Add(new WebConfigSource() { Path = "web.config", Optional = false, ReloadOnChange = true, })
+                .AddEnvironmentVariables();
+            
+            var config = builder.Build();
+            var connectionString = config.GetSection("webconfig").GetValue<string>("MYSQL_CONNECTION_STRING");
+                
+            Func<string, string>[] handlers =
             {
                 table => "SELECT * from " + table,
                 table => "SELECT count(*) from " + table,
                 table => "SELECT * from " + table + " LIMIT 10, 1000"
             };
 
-            app.Run(async (context) =>
+            app.Run(async context =>
             {
                 try
                 {
@@ -103,7 +110,7 @@ namespace TestPerf.Web
             return (await reader.GetFieldValueAsync<object>(i)).ToString();
         }
 
-        private string[] tables = new[]
+        private readonly string[] tables =
         {
             "kfm_new_directories",
             "kfm_new_files",
