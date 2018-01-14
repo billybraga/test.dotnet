@@ -4,6 +4,7 @@
     <PublishDir>$(OutDir)_PublishedWebsites\NetCoreWebApp\</PublishDir>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="wwwroot" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
