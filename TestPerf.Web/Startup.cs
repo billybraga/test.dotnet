@@ -50,7 +50,8 @@ namespace TestPerf.Web
                 .AddEnvironmentVariables();
             
             var config = builder.Build();
-            var connectionString = config.GetSection("webconfig").GetValue<string>("MYSQL_CONNECTION_STRING");
+            var connectionString = config.GetSection("webconfig").GetValue<string>("MYSQL_CONNECTION_STRING")
+                + ";Convert Zero Datetime=True";
                 
             Func<string, string>[] handlers =
             {
